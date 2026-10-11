@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "prepared_utc": "2026-10-11T14:21:24Z",
+  "status": "frozen before any new source-localization or target-class ratings; local ordering only, not independent authenticated preregistration",
+  "question": "Are two securely localized manuscript glyphs in the same physical graphical class, different classes, or unresolved?",
+  "coordinator_targets": ["v139R_C01_023", "v139R_C02_017"],
+  "source": {
+    "document": "BnF Francais 3758, item 104; Chatillon to Servien, 3 August 1635",
+    "view": "Gallica view139, right-hand page",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item",
+    "historical_config_sha256": "b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872",
+    "historical_inventory": "Chatillon_N2_width_dependency_test_20261005.zip: chatillon_ablation_20261005/prior_middle_inventory_frozen.json",
+    "historical_inventory_sha256": "b0ac8a14296b78bda40db9042c87838b49a0ac47783a37e8fc5db2f73a148580"
+  },
+  "source_gate": [
+    "Readable primary-source pixels, exact image or capture SHA256, dimensions, URL, capture type and orientation must be recorded. A viewer derivative is not claimed to be an archival master.",
+    "Both target IDs must be linked to exact bounding boxes and full line context. Do not identify them by their shared text label or expected deciphered output.",
+    "Prefer the pinned historical inventory with source-image linkage. If unavailable, a fresh source-only localization may reconstruct a new coordinate map only when the full physical ordering and neighboring anchors uniquely establish the locations; keep this distinct from recovery of historical coordinates.",
+    "If row identity, physical grouping, target boundary, token ordering or source-image association remains ambiguous, retain all candidates and report the target identity unresolved. Do not select the candidate that best fits a desired class.",
+    "The class comparison for the named pair is admissible only after the source gate passes."
+  ],
+  "observer_isolation": "A new observer receives no inherited conversation and only anonymous randomized crops plus the feature rubric. No historical class names, target IDs, plaintext, key values, computational counts, source-localizer verdict or desired conclusion. Observer must not inspect other research files.",
+  "feature_rubric": [
+    "Number and closure of loops or enclosed regions",
+    "Attachment and relative placement of stems, returns and crossing strokes",
+    "Number and relative placement of detached marks",
+    "Boundary of each glyph and possible overlap with neighbors",
+    "Record slant, scale and thickness separately from topology; do not infer pen stroke order"
+  ],
+  "controls": "Before target ratings, freeze two byte-identical duplicate-crop positive controls and two visibly distinct-topology negative controls using unrelated glyphs from the same source image. Keep control truth, crop coordinates, hashes and randomized presentation order in a coordinator registry not given to the observer. If two suitable distinct-topology controls cannot be selected securely, stop rather than invent ground truth.",
+  "pixel_policy": "Use native pixels and, if needed, nearest-neighbor display enlargement; retain native crops and line context. No generative enhancement, stroke retouching, selective erase, rotation or source replacement. Unreadable loop closures or attachments remain uncertain regardless of enlargement.",
+  "decisions": {
+    "same_physical_class": "Every critical topology feature is readable and agrees; scale, slant or thickness differences alone are not sufficient to split classes.",
+    "different_physical_class": "At least one readable stable topological difference is explicitly identified.",
+    "unresolved": "Any critical feature or source localization is uncertain, observer controls fail, or provenance/source gate fails.",
+    "control_gate": "All duplicate controls must be same and all securely distinct-topology controls must be different. Failure invalidates target interpretation; preserve the raw response without repairing the rubric."
+  },
+  "required_outputs": "Source/capture hashes and metadata; source-localization evidence and uncertainties; frozen crop registry and control truth; exact blinded prompt and raw observer response; disclosed AI assistance. Publish only cleaned text/metadata unless image redistribution rights are verified.",
+  "limits": "Physical graphical agreement does not establish historical cipher outputs or a semantic key. The coordinator knows prior calculations; blinding applies to the fresh observer, not the entire project. Preserve PR4/PR5 and their earlier protocol amendment. No old computational experiment replay.",
+  "amendments": "Any change after a source-localization or class response must be separately recorded with its timing and already exposed information."
+}

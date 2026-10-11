@@ -36,6 +36,8 @@ A successful run means the published files and declared calculation reproduce. I
 
 Local conditional repeat and N2-width dependency hypothesis. Replay covers 6,144 dependent alignment conditions and 24 width conditions, not a recovered full key or independent confirmations.
 
+A separate [source glyph limitation audit](verification/experiments/chatillon-source-glyph-audit-20261011/README.md) records proposed local source correspondences. The named pair remains unresolved under its frozen source gate: full ordering and cluster grouping are not independently established, and anonymous crop ratings cannot supply that binding.
+
 This is part of [Cipher-Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). Explore the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md), and [step-by-step research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md).
 
 Source credit and item-specific restrictions remain in the research records. Scans, crops, restricted materials and private correspondence are excluded. No new blanket licence is asserted. AI-assisted work requires evidence checking and does not constitute external human expert review.

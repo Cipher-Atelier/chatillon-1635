@@ -1,0 +1,81 @@
+SOURCE-ONLY VIEWER CAPTURE SUPPLEMENT
+Coordinate convention throughout: (x,y,width,height), integer coordinates in the named screenshot, upper-left origin, half-open rectangle. Boxes enclose visible ink with small margins; they are not exact component masks. Screenshots are viewer captures rather than archival masters.
+
+SECTION 1: gallica-f139-zoom-capture.jpg
+Dimensions: 1816 x 1129.
+SHA-256: e3a53c0e7640abc0a7fbea220729448c71b8df7dbd028375c92956a5c185c287
+Inspected original and a temporary 2x nearest-neighbor crop. No interpolation, retouching or rotation.
+
+C01_023: uniquely attached to the established low-resolution source location by the consecutive crossed stem/loop, crossed diagonals, loop with descender, top bar with two descending legs, swept angular stroke, and tall stem/shoulder anchors. All appear in the same order at the terminal portion of the first line. The separated terminal target has screenshot box (754,328,74,104).
+Useful anchor boxes:
+ C01_017: (131,400,101,105)
+ C01_018: (269,384,88,61)
+ C01_019: (334,386,92,97)
+ C01_020: (452,380,81,55)
+ C01_021: (549,362,106,69)
+ C01_022: (643,336,61,122)
+Visible first-line tail box: (21,328,808,181). The full source line is cropped at the screenshot's left boundary.
+Boundary ambiguity: C01_021's swept right tail approaches/touches C01_022's lower-left shoulder, so their shared boundary remains convention dependent. The target is separated from the preceding stem by clear background. Its visible border is softly antialiased; a 2-3 screenshot-pixel outer-edge tolerance is appropriate. No finer stroke classification is certified.
+
+C02_017: UNRESOLVED IN THIS CAPTURE. The main viewport begins too far right to show the established C02_013..021 neighborhood containing the target. Its local anchors and target lie left of the main visible source. The minimap is only a thumbnail with unresolved glyph pixels. No screenshot-coordinate glyph box is certified for this target. This is an absence of sufficient source coverage, not a changed conclusion about the earlier low-resolution location.
+
+Topology-only controls in this screenshot (no target comparison):
+ Control A: (335,640,92,87), two separate slanted upright stems linked by a crossbar; no visible closed loop.
+ Control B: (437,680,69,52), one open curved arc with a short outward terminal; no crossbar or closed loop.
+ Control C: (269,384,88,61), two diagonally opposed strokes crossing centrally, with curved endpoints; no closed loop.
+These are readily distinguishable physical control patterns at this capture's scale. Control C also serves as an ordered anchor.
+
+Section 1 gate: C01 attachment PASS; C02 screenshot attachment UNRESOLVED because the necessary region is cropped out.
+
+SECTION 2: gallica-f139-zoom-capture-02.jpg
+Dimensions: 1816 x 1129.
+SHA-256: 1914bffa3e1947bbc9fda70f6670ed88531347a200b00ba7b9a9d3652c1151c4
+Inspected original and a temporary 2x nearest-neighbor crop. The screenshot has a distinct frame/origin from Section 1. Coordinates below belong only to capture-02.
+
+C01_023 target box: (1334,328,74,104).
+Attachment: UNIQUE. Fresh matching of the full local tail establishes the same physical source position: crossbar-bearing descending mark, narrow sinuous mark, tall shoulder/stem, short descending mark, two-character number-like unit, crossed loop/stem, crossed diagonals, rounded hook with long descending stem, top bar with two legs, swept angular mark, tall shoulder/stem, then the separated terminal target. The first five added anchors are now visible and strengthen the attachment.
+Anchor boxes:
+ C01_012: (216,417,120,109)
+ C01_013: (335,411,58,97)
+ C01_014: (416,378,59,114)
+ C01_015: (500,410,51,86)
+ C01_016: (602,393,110,55)
+ C01_017: (710,400,103,105)
+ C01_018: (848,384,90,61)
+ C01_019: (914,386,95,97)
+ C01_020: (1032,380,81,55)
+ C01_021: (1129,362,106,69)
+ C01_022: (1223,336,61,122)
+Visible first-line tail box: (213,328,1195,198). The complete first source line still extends left of the viewport.
+Boundary ambiguity: the swept mark and following tall stem partly touch. The target itself remains separated by background; outer soft-edge tolerance approximately 2-3 screenshot pixels. No target stroke class is certified.
+
+C02_017 target box: (200,531,82,110).
+Attachment: UNIQUE. The target follows the small open-topped rounded mark and precedes the loop with crossed descending tail. The following tall open loop, curved/crossed group, and compact looped mark then occur in the supplied order. This bidirectional anchor chain independently fixes the established low-resolution position. It does not require interpreting or recounting the earlier 93y-like cluster, which is outside this viewport.
+Anchor boxes:
+ C02_015 number-like mark, partially near the left frame: (11,566,59,50)
+ C02_016 small rounded mark: (122,566,62,51)
+ C02_018 crossed descending loop/tail: (271,553,109,99)
+ C02_019 tall open loop: (394,504,70,103)
+ C02_020 curved/crossed group: (473,515,154,86)
+ C02_021 compact looped mark: (625,523,51,75)
+Visible second-line portion: (11,483,1429,170); its earlier source portion is cropped out.
+Boundary ambiguity: the target has a separated footprint between its neighbors; the small rounded preceding mark and following crossed tail do not touch it. Soft-edge tolerance approximately 2-3 screenshot pixels. The central dark ink does not license certification of faint internal strokes beyond what the screenshot visibly supports.
+
+CONTROL REGIONS FOR CAPTURE-02 ONLY
+All six controls below are non-target source regions chosen for readability and physical topology, independent of any expected target class. They are separated from neighboring glyph ink within the stated boxes. Their crop boxes have integer coordinates; duplicated positive controls should be made from the very same extracted region/bytes, rather than from independent resampling or recropping.
+
+Positive-control source P1: (914,639,94,89). Two slanted upright stems joined by a transverse crossbar, no visible closed loop. Use one source crop twice byte-identically for positive duplicate pair P1.
+Positive-control source P2: (1017,680,70,52). One open curved arc with a short outward terminal, no second upright or crossing. Use one source crop twice byte-identically for positive duplicate pair P2.
+
+Negative pair N1:
+ N1-A: (848,384,90,61). Two diagonally opposed curved strokes cross centrally, with four outward stroke ends.
+ N1-B: (1370,486,66,57). A top bar joins two descending legs, with no diagonal central crossing.
+ Truth: the visible stroke arrangements differ securely: central diagonal crossing versus a top junction feeding two downward legs. This comparison does not depend on a faint internal loop or annotation name.
+
+Negative pair N2:
+ N2-A: (670,639,128,140). Two long descending legs meet a linked double-arch/shoulder at the top; the rightmost upper shoulder curls outward.
+ N2-B: (1091,523,32,53). One short slanted stroke with a small lower bend; no second leg or arch junction.
+ Truth: the visible stroke arrangements differ securely: two linked long legs and upper arches versus one short simple stroke. This comparison does not depend on fine ink-edge placement.
+
+Controls gate: PASS. Two positive duplicate sources and two secure distinct-topology negative pairs are available. This report provides source regions and topology truth only; it does not itself manufacture or administer the blinded comparisons.
+Section 2 localization gate: PASS independently for both target attachments. The minimap at the upper right does not overlap these target or control boxes. No pairwise target comparison, target class rating, plaintext, key, or decipherment is supplied.

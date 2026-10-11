@@ -1,0 +1,14 @@
+{
+  "captured_utc_recorded": "2026-10-11T19:35:30.604252+00:00",
+  "source_url": "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item.zoom",
+  "capture_type": "supported browser viewport screenshot, Gallica zoom; JPEG display derivative, not archival master",
+  "bytes": 216484,
+  "sha256": "e3a53c0e7640abc0a7fbea220729448c71b8df7dbd028375c92956a5c185c287",
+  "dimensions": [
+    1816,
+    1129
+  ],
+  "orientation": "as displayed; no rotation",
+  "rights": "local inspection only; no image redistribution approval asserted",
+  "association": "same f139 right-page cipher rows; separate independent coordinate supplement required before class comparison"
+}

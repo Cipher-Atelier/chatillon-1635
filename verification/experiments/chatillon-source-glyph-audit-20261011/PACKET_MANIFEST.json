@@ -1,0 +1,595 @@
+{
+  "schema_version": 1,
+  "source": {
+    "sha256": "1914bffa3e1947bbc9fda70f6670ed88531347a200b00ba7b9a9d3652c1151c4",
+    "bytes": 263975,
+    "dimensions": [
+      1816,
+      1129
+    ],
+    "mode": "RGB",
+    "format": "JPEG"
+  },
+  "processing": {
+    "box_format": "x,y,width,height",
+    "orientation": "decoded source; no EXIF transform",
+    "enlargement": "nearest-neighbor 3x"
+  },
+  "pairs": [
+    {
+      "label": "P01",
+      "items": [
+        {
+          "label": "A",
+          "crop": {
+            "path": "P01/A/crop.png",
+            "sha256": "43b511c21801e7748f2e003f0c1885af5a845e1277842715ac856d61cde8280d",
+            "bytes": 8309,
+            "dimensions": [
+              94,
+              89
+            ],
+            "mode": "RGB",
+            "box": [
+              914,
+              639,
+              94,
+              89
+            ]
+          },
+          "crop_3x": {
+            "path": "P01/A/crop_3x.png",
+            "sha256": "a49292ad6739b7a7db2b846b348459fae9d2d0da8d68254bf2b1c8e319f75a84",
+            "bytes": 10659,
+            "dimensions": [
+              282,
+              267
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P01/A/context.png",
+            "sha256": "08fd37f0a653837db50d7df4c09fc3eb209fc7e8dfe3cc8aa3a427146cb72408",
+            "bytes": 36699,
+            "dimensions": [
+              355,
+              140
+            ],
+            "mode": "RGB",
+            "box": [
+              798,
+              610,
+              355,
+              140
+            ]
+          },
+          "context_3x": {
+            "path": "P01/A/context_3x.png",
+            "sha256": "fd0d5e00f9553c17b7df2026ded6235b8556dbe123455bcade85d4ac4ed31642",
+            "bytes": 51022,
+            "dimensions": [
+              1065,
+              420
+            ],
+            "mode": "RGB"
+          }
+        },
+        {
+          "label": "B",
+          "crop": {
+            "path": "P01/B/crop.png",
+            "sha256": "43b511c21801e7748f2e003f0c1885af5a845e1277842715ac856d61cde8280d",
+            "bytes": 8309,
+            "dimensions": [
+              94,
+              89
+            ],
+            "mode": "RGB",
+            "box": [
+              914,
+              639,
+              94,
+              89
+            ]
+          },
+          "crop_3x": {
+            "path": "P01/B/crop_3x.png",
+            "sha256": "a49292ad6739b7a7db2b846b348459fae9d2d0da8d68254bf2b1c8e319f75a84",
+            "bytes": 10659,
+            "dimensions": [
+              282,
+              267
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P01/B/context.png",
+            "sha256": "08fd37f0a653837db50d7df4c09fc3eb209fc7e8dfe3cc8aa3a427146cb72408",
+            "bytes": 36699,
+            "dimensions": [
+              355,
+              140
+            ],
+            "mode": "RGB",
+            "box": [
+              798,
+              610,
+              355,
+              140
+            ]
+          },
+          "context_3x": {
+            "path": "P01/B/context_3x.png",
+            "sha256": "fd0d5e00f9553c17b7df2026ded6235b8556dbe123455bcade85d4ac4ed31642",
+            "bytes": 51022,
+            "dimensions": [
+              1065,
+              420
+            ],
+            "mode": "RGB"
+          }
+        }
+      ]
+    },
+    {
+      "label": "P02",
+      "items": [
+        {
+          "label": "A",
+          "crop": {
+            "path": "P02/A/crop.png",
+            "sha256": "eedaf25024c5fe3b1ad9888862ae78214509e0ba0ca7679eaa39fd65ed638957",
+            "bytes": 15719,
+            "dimensions": [
+              128,
+              140
+            ],
+            "mode": "RGB",
+            "box": [
+              670,
+              639,
+              128,
+              140
+            ]
+          },
+          "crop_3x": {
+            "path": "P02/A/crop_3x.png",
+            "sha256": "fa7f25f29ff3108b65d6c4f22595a03a4d572872249aaf5b69a7a0d598032244",
+            "bytes": 21097,
+            "dimensions": [
+              384,
+              420
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P02/A/context.png",
+            "sha256": "a3494dd45499958c420265724298dc7eb2556a7bb7587dec31afacfe45b889bd",
+            "bytes": 46675,
+            "dimensions": [
+              345,
+              182
+            ],
+            "mode": "RGB",
+            "box": [
+              570,
+              610,
+              345,
+              182
+            ]
+          },
+          "context_3x": {
+            "path": "P02/A/context_3x.png",
+            "sha256": "b89c551b53b5ecff525e0c5b1c92d56c7c23c555878ea76f66a0856a936070a4",
+            "bytes": 64758,
+            "dimensions": [
+              1035,
+              546
+            ],
+            "mode": "RGB"
+          }
+        },
+        {
+          "label": "B",
+          "crop": {
+            "path": "P02/B/crop.png",
+            "sha256": "4271a8de032d0bf9fe9f3764d8f12c6ecd8513aae37b3c5f7b34cd151f0a5f22",
+            "bytes": 1976,
+            "dimensions": [
+              32,
+              53
+            ],
+            "mode": "RGB",
+            "box": [
+              1091,
+              523,
+              32,
+              53
+            ]
+          },
+          "crop_3x": {
+            "path": "P02/B/crop_3x.png",
+            "sha256": "5d3a0a65d98e59c349ceae625d622e349d836d64615b103994051b13d35c743a",
+            "bytes": 2531,
+            "dimensions": [
+              96,
+              159
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P02/B/context.png",
+            "sha256": "ecc9871a56f1f060c16eb8d7ffd8791f951f9cbbdeba718722d9c89a6f7035af",
+            "bytes": 23596,
+            "dimensions": [
+              260,
+              125
+            ],
+            "mode": "RGB",
+            "box": [
+              970,
+              480,
+              260,
+              125
+            ]
+          },
+          "context_3x": {
+            "path": "P02/B/context_3x.png",
+            "sha256": "70138c8de2a9a70c5299d314df2b4eaee00b83d84c09d1916c3003dfb6945f7c",
+            "bytes": 32347,
+            "dimensions": [
+              780,
+              375
+            ],
+            "mode": "RGB"
+          }
+        }
+      ]
+    },
+    {
+      "label": "P03",
+      "items": [
+        {
+          "label": "A",
+          "crop": {
+            "path": "P03/A/crop.png",
+            "sha256": "f4784d8ff3a1095b26496eebc46bd96014b917de12f94a55f6022d7aed5e910e",
+            "bytes": 9259,
+            "dimensions": [
+              82,
+              110
+            ],
+            "mode": "RGB",
+            "box": [
+              200,
+              531,
+              82,
+              110
+            ]
+          },
+          "crop_3x": {
+            "path": "P03/A/crop_3x.png",
+            "sha256": "f0cb681fbfa20060f7ed7918f379321ad7ab8c269694e06a7c79ef01643b877d",
+            "bytes": 11770,
+            "dimensions": [
+              246,
+              330
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P03/A/context.png",
+            "sha256": "7625727189b275f9f3af1cfe35bc60683f60f48fe9a8664167fcfb202205c5af",
+            "bytes": 70629,
+            "dimensions": [
+              570,
+              163
+            ],
+            "mode": "RGB",
+            "box": [
+              105,
+              495,
+              570,
+              163
+            ]
+          },
+          "context_3x": {
+            "path": "P03/A/context_3x.png",
+            "sha256": "7d1e7f03babbf45d05e0dae2a5734ce2d773568e02411eb53025686ce5c365ea",
+            "bytes": 96187,
+            "dimensions": [
+              1710,
+              489
+            ],
+            "mode": "RGB"
+          }
+        },
+        {
+          "label": "B",
+          "crop": {
+            "path": "P03/B/crop.png",
+            "sha256": "0cdf0d8e62d7dfa47f90532fbdba869da3c2998a70d34f4dd4aff20656f05630",
+            "bytes": 7786,
+            "dimensions": [
+              74,
+              104
+            ],
+            "mode": "RGB",
+            "box": [
+              1334,
+              328,
+              74,
+              104
+            ]
+          },
+          "crop_3x": {
+            "path": "P03/B/crop_3x.png",
+            "sha256": "000abdc29339d34e9e18345b7b886e1d895e436818b2e70df861559f035fcef8",
+            "bytes": 9832,
+            "dimensions": [
+              222,
+              312
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P03/B/context.png",
+            "sha256": "54879bf3a4b0a02d414bbb3c2d046c4e584dbb0a3aaebddf954bb0ce922e8b05",
+            "bytes": 49047,
+            "dimensions": [
+              390,
+              190
+            ],
+            "mode": "RGB",
+            "box": [
+              1032,
+              320,
+              390,
+              190
+            ]
+          },
+          "context_3x": {
+            "path": "P03/B/context_3x.png",
+            "sha256": "0ff94878a8af85f05149edab5579ffa6b3728e437ab39e583dfc012b49dc3fda",
+            "bytes": 68035,
+            "dimensions": [
+              1170,
+              570
+            ],
+            "mode": "RGB"
+          }
+        }
+      ]
+    },
+    {
+      "label": "P04",
+      "items": [
+        {
+          "label": "A",
+          "crop": {
+            "path": "P04/A/crop.png",
+            "sha256": "3d44571f181b37231853248d84d0fd0431499150f7a61ddc536d6f20b38b1992",
+            "bytes": 6249,
+            "dimensions": [
+              90,
+              61
+            ],
+            "mode": "RGB",
+            "box": [
+              848,
+              384,
+              90,
+              61
+            ]
+          },
+          "crop_3x": {
+            "path": "P04/A/crop_3x.png",
+            "sha256": "e636f8077e280d03148017eb4c67fe484e5fa020253c5937bcbbc173823d5987",
+            "bytes": 7414,
+            "dimensions": [
+              270,
+              183
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P04/A/context.png",
+            "sha256": "ad36d2612fdc4e044d06363d4dc569309833fdcf25dac1799fee31008622b877",
+            "bytes": 49259,
+            "dimensions": [
+              405,
+              169
+            ],
+            "mode": "RGB",
+            "box": [
+              710,
+              336,
+              405,
+              169
+            ]
+          },
+          "context_3x": {
+            "path": "P04/A/context_3x.png",
+            "sha256": "2447fa5d94446cd667337798297d367e6b6e4aa432c556eeaedff6e5374855e7",
+            "bytes": 67873,
+            "dimensions": [
+              1215,
+              507
+            ],
+            "mode": "RGB"
+          }
+        },
+        {
+          "label": "B",
+          "crop": {
+            "path": "P04/B/crop.png",
+            "sha256": "8dcf8ea78b1649d07b6f4f0d93d258328343f6f7b3d90f9bd085cbcf9157039f",
+            "bytes": 4354,
+            "dimensions": [
+              66,
+              57
+            ],
+            "mode": "RGB",
+            "box": [
+              1370,
+              486,
+              66,
+              57
+            ]
+          },
+          "crop_3x": {
+            "path": "P04/B/crop_3x.png",
+            "sha256": "c151a847f4b8e588d32edbdac04faf9c076c6dc11b60e1cbbe9990607a369d6b",
+            "bytes": 5339,
+            "dimensions": [
+              198,
+              171
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P04/B/context.png",
+            "sha256": "9b790b81f504132f73603dca3f085de77b89ad2c4a26e6793584bb9a22a0e498",
+            "bytes": 26577,
+            "dimensions": [
+              290,
+              130
+            ],
+            "mode": "RGB",
+            "box": [
+              1170,
+              475,
+              290,
+              130
+            ]
+          },
+          "context_3x": {
+            "path": "P04/B/context_3x.png",
+            "sha256": "22036e4b1f8835ef22f5603fddf3779120fbc193b7d86a26d299fae06b9a91eb",
+            "bytes": 36612,
+            "dimensions": [
+              870,
+              390
+            ],
+            "mode": "RGB"
+          }
+        }
+      ]
+    },
+    {
+      "label": "P05",
+      "items": [
+        {
+          "label": "A",
+          "crop": {
+            "path": "P05/A/crop.png",
+            "sha256": "c9aacaf98b660b81be1a27a424d51c8e63994aa6518ec14437708e1206921984",
+            "bytes": 4180,
+            "dimensions": [
+              70,
+              52
+            ],
+            "mode": "RGB",
+            "box": [
+              1017,
+              680,
+              70,
+              52
+            ]
+          },
+          "crop_3x": {
+            "path": "P05/A/crop_3x.png",
+            "sha256": "9e0ef938fdb815616f45224dd99d237aee54b0b3ff913f07ea37c310c6e4793e",
+            "bytes": 5037,
+            "dimensions": [
+              210,
+              156
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P05/A/context.png",
+            "sha256": "d7a91eb262f9423c24cd901309f3917f69cf98db54b477419fae63ac87e5768b",
+            "bytes": 21312,
+            "dimensions": [
+              250,
+              110
+            ],
+            "mode": "RGB",
+            "box": [
+              914,
+              639,
+              250,
+              110
+            ]
+          },
+          "context_3x": {
+            "path": "P05/A/context_3x.png",
+            "sha256": "4901e6ae231de8891075caec220806e46744899aa84c1417844a76106ec845ad",
+            "bytes": 29181,
+            "dimensions": [
+              750,
+              330
+            ],
+            "mode": "RGB"
+          }
+        },
+        {
+          "label": "B",
+          "crop": {
+            "path": "P05/B/crop.png",
+            "sha256": "c9aacaf98b660b81be1a27a424d51c8e63994aa6518ec14437708e1206921984",
+            "bytes": 4180,
+            "dimensions": [
+              70,
+              52
+            ],
+            "mode": "RGB",
+            "box": [
+              1017,
+              680,
+              70,
+              52
+            ]
+          },
+          "crop_3x": {
+            "path": "P05/B/crop_3x.png",
+            "sha256": "9e0ef938fdb815616f45224dd99d237aee54b0b3ff913f07ea37c310c6e4793e",
+            "bytes": 5037,
+            "dimensions": [
+              210,
+              156
+            ],
+            "mode": "RGB"
+          },
+          "context": {
+            "path": "P05/B/context.png",
+            "sha256": "d7a91eb262f9423c24cd901309f3917f69cf98db54b477419fae63ac87e5768b",
+            "bytes": 21312,
+            "dimensions": [
+              250,
+              110
+            ],
+            "mode": "RGB",
+            "box": [
+              914,
+              639,
+              250,
+              110
+            ]
+          },
+          "context_3x": {
+            "path": "P05/B/context_3x.png",
+            "sha256": "4901e6ae231de8891075caec220806e46744899aa84c1417844a76106ec845ad",
+            "bytes": 29181,
+            "dimensions": [
+              750,
+              330
+            ],
+            "mode": "RGB"
+          }
+        }
+      ]
+    }
+  ]
+}

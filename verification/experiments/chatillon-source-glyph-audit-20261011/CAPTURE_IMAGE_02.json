@@ -1,0 +1,14 @@
+{
+  "captured_utc_recorded": "2026-10-11T19:36:33.008212+00:00",
+  "source_url": "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item.zoom",
+  "capture_type": "supported browser viewport screenshot after pan settled; JPEG display derivative, not archival master",
+  "bytes": 263975,
+  "sha256": "1914bffa3e1947bbc9fda70f6670ed88531347a200b00ba7b9a9d3652c1151c4",
+  "dimensions": [
+    1816,
+    1129
+  ],
+  "orientation": "as displayed; no rotation",
+  "rights": "local inspection only; no image redistribution approval asserted",
+  "association": "Both target neighborhoods visible; independent attachment to lowres coordinates required. Capture 01 lacked second target; retained unchanged."
+}
