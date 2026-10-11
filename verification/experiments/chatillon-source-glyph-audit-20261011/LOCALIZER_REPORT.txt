@@ -1,0 +1,55 @@
+SOURCE-ONLY LOCALIZATION REPORT
+
+Input: LOCALIZATION_INPUT.json and private-pixels/gallica-f139-highres.jpg only.
+Image: Gallica139right, native 1366 x 1054.
+Image SHA-256: 280e87f86231baf87abe40d7679aeed7c9fc11796db7ec22b9863fbe067853f0
+Method: actual source pixels inspected with view_image, including temporary crops displayed at 4x, 6x and 8x using nearest-neighbor scaling. No enhancement, interpolation, rotation, stroke editing or decipherment. Native mapping: native x = crop x + displayed x / scale; likewise y. Temporary display crops were not retained as deliverables.
+Box convention: (x,y,width,height), integer native coordinates, upper-left origin, half-open rectangle. These are manually chosen isolating rectangles, not asserted exact ink-component masks; faint edge placement is uncertain by approximately 1-2 native pixels. Target rectangles isolate one physical mark each. Boxes for annotated clusters can intentionally include several connected/adjacent strokes.
+
+C01 / v139R_C01_023
+Full first cipher line: (798,95,482,36).
+Target isolating box: (1262,95,17,21).
+Localization verdict: UNIQUE PHYSICAL MARK; gate passes for source localization.
+
+Evidence: the supplied consecutive tail has a crossbar-bearing descending mark, narrow sinuous mark, tall stem/shoulder, short descending mark, a two-character number-like unit, a crossed loop/stem, an x-shaped mark, a loop with descending stem, a top-bar/two-leg mark, a swept angular mark, and a tall stem/shoulder. The final isolated dark oblique mark lies to the right of that entire chain, at the line end. The chain supports correspondence without assigning the target a shape class.
+Anchor correspondences (annotation names used only as fallible labels):
+ C01_012 S_y_cross: (1077,110,21,20)
+ C01_013 S_long_s_curve: (1100,110,10,18)
+ C01_014 S_h: (1112,103,12,22)
+ C01_015 S_y_plain: (1125,111,13,18)
+ C01_016 N21: (1142,105,24,15)
+ C01_017 S_crossed_q_or_4_shape: (1165,107,17,21)
+ C01_018 S_x: (1183,104,14,16)
+ C01_019 S_rho: (1194,105,18,18)
+ C01_020 S_pi: (1213,103,17,16)
+ C01_021 S_z_sweep: (1230,101,18,16)
+ C01_022 S_h: (1243,95,14,26)
+ C01_023 masked target: (1262,95,17,21)
+Competing candidates: C01_022's tall terminal stem, (1243,95,14,26), is the nearest plausible alternative if the last two supplied IDs were merged or shifted. It already satisfies the preceding h annotation and participates in the swept preceding stroke; the separate oblique mark at x1262..1278 is the following isolated position. No other full tail match was observed in the authorized right-page source.
+Uncertainty: C01_001..011 are absent, so absolute counting from the row's left edge cannot independently certify the ID. The terminal anchor chain nevertheless identifies the supplied tail locally. The swept mark and following stem partly touch, so their mutual ink boundary is not uniquely segmented at this resolution. This does not introduce a second physical candidate for the following, separated target. The target's precise internal stroke topology is not certified here.
+
+C02 / v139R_C02_017
+Full second cipher line: (800,120,483,42).
+Target isolating box: (1075,128,15,25).
+Localization verdict: UNIQUE PHYSICAL MARK under the explicitly supplied old-ID grouping; gate passes for source localization.
+
+Evidence: the start of the second cipher line has the double tall arch, looped angular mark, open curved mark, swept angular mark, compact loop/leaf-like mark, stem/shoulder and large loop/stem, followed by the unresolved 93y-like cluster. After that cluster, the sequence resumes visibly with swept angular mark, connected paired uprights/loop, stem/shoulder, angled mark, open curve, curved/crossed cluster, small number-like mark and small open-topped rounded mark. The masked position is the next separate dark oblique/descending mark. Immediately following it are a loop with crossed descending tail, tall open loop, curved/crossed cluster, and compact loop/leaf-like mark. Both sides anchor the target locally.
+Useful local anchor correspondences:
+ C02_008 unresolved cluster, retained as one old ID: (908,133,35,18)
+ C02_009 S_z_sweep: (946,129,23,15)
+ C02_010 S_HP_connected: (969,133,15,23)
+ C02_011 S_h: (983,128,13,24)
+ C02_012 S_lambda_angled: (997,128,13,18)
+ C02_013 S_c_open: (1010,137,17,11)
+ C02_014 U_curve_cross_cluster: (1025,126,20,24)
+ C02_015 N2: (1044,130,16,15)
+ C02_016 S_a_plain: (1061,134,15,12)
+ C02_017 masked target: (1075,128,15,25)
+ C02_018 S_y_cross: (1089,133,19,21)
+ C02_019 S_epsilon_stacked: (1107,124,17,23)
+ C02_020 U_curve_cross_cluster: (1124,124,22,23)
+ C02_021 S_leaf: (1145,125,19,21)
+Competing candidates if grouping is changed: promoting C02_008's two subdivisions to separate new positions shifts a blind ordinal count by one; promoting its three subdivisions shifts it by two. Thus a literal new-position count of 17 could land on the small rounded mark in C02_016's rectangle or the number-like mark in C02_015's rectangle. Neither is a competing match for the supplied old-ID sequence: the supplied instruction explicitly retains C02_008 as one old ID and provides separate post-cluster anchors. No alternative physical span was observed that matches the complete C02_013..016 and C02_018..021 neighborhood while placing the masked gap elsewhere.
+Uncertainty: the 93y-like cluster's internal segmentation remains unresolved. The provided working name S_y_cross is not treated as proof of a glyph class: its physical correspondence is supported by position and the following three anchors. Some anchor labels describe shapes loosely; exact ink boundaries and fine stroke topology remain limited by the native resolution.
+
+Overall localization gate: PASS for linking each masked old ID to one physical source mark using ordered neighboring anchors. This is a source-location finding only. It supplies no target class certification, no comparison of the targets, no plaintext, and no decipherment result. The incomplete C01 prefix and C02 cluster prevent an independent absolute ordinal-count audit; they do not prevent the stated local anchor matches.

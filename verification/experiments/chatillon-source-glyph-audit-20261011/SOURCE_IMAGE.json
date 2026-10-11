@@ -1,0 +1,14 @@
+{
+  "readable": true,
+  "bytes": 319228,
+  "sha256": "280e87f86231baf87abe40d7679aeed7c9fc11796db7ec22b9863fbe067853f0",
+  "format": "JPEG",
+  "dimensions": [
+    1366,
+    1054
+  ],
+  "source_url": "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.highres",
+  "view_url": "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item",
+  "acquisition": "supported pageAssets bundle of one exactly observed image, after approved failed downloadMedia",
+  "rights": "Local inspection only; no image redistribution right asserted."
+}

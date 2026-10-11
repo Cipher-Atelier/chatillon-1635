@@ -1,0 +1,60 @@
+INDEPENDENT SOURCE-GATE ADMISSIBILITY REVIEW
+Date: 2026-10-11
+Role: AI protocol reviewer using the inherited allowed model. Requested Opus/Sonnet models are unavailable. This is neither a human review nor an independent inspection of manuscript pixels.
+
+Authorized evidence inspected, and only these four files:
+ FROZEN_PROTOCOL.json
+ LOCALIZATION_INPUT.json
+ LOCALIZER_REPORT.txt
+ LOCALIZER_CAPTURE_SUPPLEMENT.txt
+No images, other research files, conversation history, target class labels, plaintext, computational results, or historical coordinates were inspected. No decipherment or target class rating was performed. The coordinator states that the class observer has not been spawned or rated. This review precedes any class ratings available to this reviewer; it cannot independently attest to uninspected workflow events. The completed supplement, including Section 2, was reread before finalizing this review.
+
+DECISION: THE FROZEN SOURCE GATE HAS NOT BEEN DEMONSTRATED TO PASS FOR THE NAMED PAIR. Named-target binding remains unresolved at the protocol level. Do not admit a named-pair physical-class conclusion on this record. This does not reject the reported uniqueness of the local anchor matches; it limits what those matches establish.
+
+Applicable frozen requirements:
+ The replacement-map route is permitted only when "the full physical ordering and neighboring anchors uniquely establish the locations" and must remain distinct from historical-coordinate recovery.
+ "If row identity, physical grouping, target boundary, token ordering or source-image association remains ambiguous, retain all candidates and report the target identity unresolved."
+ "The class comparison for the named pair is admissible only after the source gate passes."
+ The frozen unresolved decision expressly includes uncertainty in source localization or failure of provenance/source gate.
+
+1. What the localizer report establishes within its stated assumptions
+
+The report supplies a native-image SHA-256, dimensions, coordinate convention, full-line rectangles, target rectangles, ordered anchor rectangles, alternatives and explicit uncertainty. The protocol supplies the Gallica source URL and right-page designation. These are useful recorded source-localization claims. This reviewer has not independently checked the pixels, hashes or metadata.
+
+For v139R_C01_023, the reported ordered C01_012..023 tail supports a unique terminal physical mark in the supplied local sequence. The proposed native rectangle is (1262,95,17,21), with line context (798,95,482,36). The closest conditional alternative, if the final supplied IDs were merged or shifted, is the preceding C01_022 rectangle (1243,95,14,26). The report explains why that alternative does not match the supplied tail as annotated. This supports conditional local correspondence, not an independent certification of the complete row numbering.
+
+For v139R_C02_017, the report supports a unique local gap between the supplied C02_013..016 and C02_018..021 anchors, conditional on preserving the supplied old-ID grouping. The proposed native rectangle is (1075,128,15,25), with line context (800,120,483,42). Under that old-ID convention C02_008 stays one unresolved cluster. Promoting its subdivisions into new ordinal positions would make a fresh count of position 17 point elsewhere, including the C02_016 rectangle (1061,134,15,12) or C02_015 rectangle (1044,130,16,15). Those are alternative fresh-count interpretations, not alternative full local matches for the stated old-ID neighborhood. Do not silently turn these segmentation variants into separate old IDs.
+
+2. Why this does not satisfy the frozen replacement-map requirement
+
+C01_001..011 are absent from the input. The report explicitly states that absolute counting from the row's left edge cannot independently certify the ID. Neither it nor the supplement provides the missing prefix or resolves its physical grouping and ordered old-ID linkage. The visible local tail may be unique while the complete ID-to-row ordering remains unaudited. A unique local sequence alone cannot stand in for the frozen requirement of full physical ordering AND neighboring anchors.
+
+C02_008 has unresolved segmentation alternatives. The report's local match is expressly conditional on the supplied old-ID grouping, and that grouping is an input convention, not an independently recovered physical segmentation. Treating the cluster as one historical ID is proper for conditional old-ID correspondence; it does not resolve the frozen physical-grouping uncertainty or supply the missing independent ordering evidence. The record must preserve the alternatives rather than claim that an assumed grouping itself satisfies the gate.
+
+These limitations are distinct from target-edge uncertainty. The report describes the target marks as separated from nearby anchors and does not identify a second local candidate under its supplied sequence. Faint edge tolerance and touching neighboring anchors do not, by themselves, prove the target rectangles wrong. The blocking issue is the stronger named-ID binding required by the frozen protocol, not a newly invented demand for exact ink masks.
+
+The localizer's declaration of PASS uses a narrower criterion: linking supplied masked old IDs through ordered neighboring anchors while conceding that a full ordinal audit cannot be performed. A report's PASS label cannot amend the frozen criterion. Accepting that declaration as full-gate passage would lower the gate after localization evidence had been exposed.
+
+3. Viewer-capture supplement
+
+The supplement reports a viewer capture with dimensions 1816 x 1129 and SHA-256 e3a53c0e7640abc0a7fbea220729448c71b8df7dbd028375c92956a5c185c287. It reports a unique C01 terminal-tail attachment, proposed capture rectangle (754,328,74,104), and visible tail context (21,328,808,181). The first-line prefix is cropped at the capture's left boundary. Thus it strengthens the local C01 attachment but cannot supply the missing full ordering.
+
+Section 1 explicitly reports C02_017 unresolved in that first capture: the requisite neighborhood is outside the main viewport, and the minimap cannot resolve glyph pixels. No C02 localization or eventual comparison may be attributed to that first capture.
+
+Section 2 supplies a second viewer capture, also 1816 x 1129, with SHA-256 1914bffa3e1947bbc9fda70f6670ed88531347a200b00ba7b9a9d3652c1151c4. It reports unique local attachments for both targets, C01 rectangle (1334,328,74,104) with tail context (213,328,1195,198), and C02 rectangle (200,531,82,110) with line-portion context (11,483,1429,170). These rectangles belong only to capture-02. The C02 bidirectional chain supports attachment without recounting the upstream cluster. Thus one capture now supports the proposed local pair; the earlier C02 capture-coverage deficiency is resolved for capture-02.
+
+Section 2 also explicitly says that the complete first source line still extends left of the viewport and that the second line's earlier portion, including the unresolved cluster, is cropped out. Its stronger local attachment evidence does not provide the missing full physical ordering or resolve the historical grouping alternatives. Calling its local attachment PASS does not turn that narrower finding into a frozen overall source-gate PASS.
+
+The control descriptions are outside this review's class-rating remit. Their presence cannot cure source-localization deficiencies or substitute for passing the frozen source gate.
+
+4. Precise admissible scope
+
+Admissible now: a source-only report of the proposed rectangles and their ordered local anchor evidence, explicitly conditional on the supplied historical annotation sequence and old-ID grouping; the reported unique attachment of both local positions in capture-02; the C02 coverage failure in capture-01; all documented candidates, segmentation alternatives and uncertainty. The supplied-old-ID pair may be identified as a CONDITIONAL LOCAL CORRESPONDENCE. Call this a proposed fresh local coordinate correspondence, not recovered historical coordinates or certified absolute ordinals.
+
+Not established now: a complete independent physical-ordering audit, an unconditional binding of both named historical target IDs under the frozen gate, recovery or verification of historical coordinate rectangles, or admissibility of a physical-class conclusion for the named pair. C02 attachment is established as a reported local correspondence in capture-02, not in capture-01.
+
+A future anonymous observer could describe the pixels of explicitly selected crops as an exploratory crop comparison, but those descriptions would not certify that the crops are the named pair. They must not be promoted to the frozen named-pair result while the source gate remains unresolved. This review neither authorizes that alternate experiment nor changes the rubric.
+
+To pass the existing gate requires additional source-only evidence that resolves the missing complete ordering and relevant physical grouping, or the preferred pinned inventory with verified source-image linkage. That is an evidence requirement under the existing protocol. Replacing it with a local-anchor-only rule would require a separately timed amendment disclosing already exposed localization evidence; it cannot be called passage of the original frozen gate.
+
+No protocol repair, criterion relaxation, pixel editing, new class judgment or Git mutation was performed.

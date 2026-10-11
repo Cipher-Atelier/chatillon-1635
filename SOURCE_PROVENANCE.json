@@ -258,5 +258,37 @@
       "path": "README.md",
       "current_sha256": "217174795ff05416bcace99f41fa60977822df35e1839fbe6ba6bbec99a95ac1"
     }
+  },
+  "source_glyph_limitation_audit_20261011": {
+    "date_utc": "2026-10-11",
+    "base_commit": "5440c0a2f845a7cb92181ea99d640dc09e508274",
+    "package_path": "verification/experiments/chatillon-source-glyph-audit-20261011",
+    "scope": "Separate source-only limitation audit and ancillary anonymous crop records; frozen named-pair source gate remains unresolved. No historical calculation rerun, cipher-key claim, criterion repair or image publication. Existing provenance inventories remain historical snapshots.",
+    "named_pair_source_gate": "unresolved",
+    "publication_transforms": "verification/experiments/chatillon-source-glyph-audit-20261011/PUBLICATION_TRANSFORMS.json",
+    "withheld": "Source image and capture bytes, PNG crops, archives and private files.",
+    "library_original_archive_status": "Library prepare_materialize is not available; original archive remains unresolved; no access workaround.",
+    "navigation_file": "README.md",
+    "previous_sha256": "0973b0d775b36c75196dd14afbb88661a8a6bcbf9fb634f44f3eb036944aa3f3",
+    "current_sha256": "f64408c932bd7b3baf6ba9a89937c4739e01759e0c8a1562c128061b02d4e9bc",
+    "control_gate": "failed",
+    "controls_passed": 3,
+    "controls_total": 4,
+    "named_pair_final_decision": "unresolved",
+    "ancillary_target_raw_decision": "unresolved",
+    "outcome_scope": "Named source gate unresolved before ratings; failed frozen control gate also invalidates ancillary target interpretation. All raw responses retained; no replacement, retry or criterion repair.",
+    "package_readme_sha256": "84d0219d0f376072e7f1eb7ea0ed750b1a1aba3424046dede5d9705e884646a1",
+    "results_sha256": "d42dd97236884ec2c649a4d339b33c81be328b5a1268456cacbfdfc33b397412",
+    "raw_observer_sha256": "12fb9da97984d650c30e06f84e95ea5bc2cf29824bf89f64d7c3a4ec9bb46833",
+    "package_checksums_path": "verification/experiments/chatillon-source-glyph-audit-20261011/SHA256SUMS.txt"
+  },
+  "integration_metadata_update_20261011_pr6": {
+    "scope": "Integrate the source-glyph limitation audit with the merged width-spectrum and slash-loop packages. Preserve all original package bytes, source links, scientific limits, publication transforms and historical provenance snapshots; source images remain withheld. Update combined navigation and checksum inventory only.",
+    "previous_main": "462e2bc75c62b616fef8822b48de27a8854d6714",
+    "original_pr6_head": "2309f33ca301855fb64a026e854f0f006b26a794",
+    "navigation_file": {
+      "path": "README.md",
+      "current_sha256": "119e4021f8a5370f6666482425521e3f68ac641a36abb6f3990667939aa33eb2"
+    }
   }
 }

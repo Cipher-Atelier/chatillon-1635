@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-10-11T19:40:19.141473+00:00",
+  "before_blinded_observer_ratings": true,
+  "frozen_protocol_changed": false,
+  "named_pair_source_gate": "unresolved",
+  "basis": "SOURCE_GATE_REVIEW.txt: unique local old-ID correspondence is conditional; full physical ordering and grouping are not independently established. Do not lower frozen source gate.",
+  "named_pair_final_decision": "unresolved regardless of any ancillary crop-rating outcome",
+  "ancillary_observer_scope": "User-authorized blinded descriptive comparison of explicitly selected anonymous source crops only. These ratings cannot establish their binding to the named historical pair or produce an admissible named-pair class conclusion. Same feature rubric and controls; preserve every response.",
+  "limits": "No recovery of historical coordinate map, no key semantics, no old computational rerun, no amendment repairing the frozen source gate.",
+  "FROZEN_PROTOCOL.json_sha256": "9c6a8186c055d5bcb38c7397be4c12beaec1fa342d8899af59f9bed86327ae76",
+  "SOURCE_GATE_REVIEW.txt_sha256": "f3a79bdc5e4cdb4e54a346f30a226002025358633db1a3638a2ddb6d8753b309",
+  "LOCALIZER_REPORT.txt_sha256": "80f198bbf8b1e597a700b7ef63f656ddd30efe5debb28d634850e908768484fd",
+  "LOCALIZER_CAPTURE_SUPPLEMENT.txt_sha256": "4f74e9dc5cedfafe973f8555a74c9cbe5f5110b18c5855a7cb033796867cf8b9",
+  "COORDINATOR_REGISTRY.json_sha256": "63a0d91a59c8a1c9c9f0f2cfd1fc60f698462323dc00c064a7ec4d036b2dad19",
+  "PACKET_SPEC.json_sha256": "8c5e1ed59a387ce2e296912d83da18dc65c326a677dba1b085a2a71bd0379338"
+}

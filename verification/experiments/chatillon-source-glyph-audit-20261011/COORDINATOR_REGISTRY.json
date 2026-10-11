@@ -1,0 +1,207 @@
+{
+  "frozen_utc": "2026-10-11T19:39:23.838711+00:00",
+  "timing": "before blinded observer receives packet or issues any ratings",
+  "source": "gallica-f139-zoom-capture-02.jpg",
+  "source_sha256": "1914bffa3e1947bbc9fda70f6670ed88531347a200b00ba7b9a9d3652c1151c4",
+  "protocol_sha256": "9c6a8186c055d5bcb38c7397be4c12beaec1fa342d8899af59f9bed86327ae76",
+  "randomization": "SystemRandom pair order and within-pair order, realized order below; no class outcome used",
+  "pairs": [
+    {
+      "label": "P01",
+      "role": "positive1",
+      "expected_control_decision": "same",
+      "items": [
+        {
+          "label": "A",
+          "source_region": "positive_1",
+          "box": [
+            914,
+            639,
+            94,
+            89
+          ],
+          "context_box": [
+            798,
+            610,
+            355,
+            140
+          ]
+        },
+        {
+          "label": "B",
+          "source_region": "positive_1",
+          "box": [
+            914,
+            639,
+            94,
+            89
+          ],
+          "context_box": [
+            798,
+            610,
+            355,
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "label": "P02",
+      "role": "negative2",
+      "expected_control_decision": "different",
+      "items": [
+        {
+          "label": "A",
+          "source_region": "negative_2a",
+          "box": [
+            670,
+            639,
+            128,
+            140
+          ],
+          "context_box": [
+            570,
+            610,
+            345,
+            182
+          ]
+        },
+        {
+          "label": "B",
+          "source_region": "negative_2b",
+          "box": [
+            1091,
+            523,
+            32,
+            53
+          ],
+          "context_box": [
+            970,
+            480,
+            260,
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "label": "P03",
+      "role": "target",
+      "expected_control_decision": null,
+      "items": [
+        {
+          "label": "A",
+          "source_region": "target_C02",
+          "box": [
+            200,
+            531,
+            82,
+            110
+          ],
+          "context_box": [
+            105,
+            495,
+            570,
+            163
+          ]
+        },
+        {
+          "label": "B",
+          "source_region": "target_C01",
+          "box": [
+            1334,
+            328,
+            74,
+            104
+          ],
+          "context_box": [
+            1032,
+            320,
+            390,
+            190
+          ]
+        }
+      ]
+    },
+    {
+      "label": "P04",
+      "role": "negative1",
+      "expected_control_decision": "different",
+      "items": [
+        {
+          "label": "A",
+          "source_region": "negative_1a",
+          "box": [
+            848,
+            384,
+            90,
+            61
+          ],
+          "context_box": [
+            710,
+            336,
+            405,
+            169
+          ]
+        },
+        {
+          "label": "B",
+          "source_region": "negative_1b",
+          "box": [
+            1370,
+            486,
+            66,
+            57
+          ],
+          "context_box": [
+            1170,
+            475,
+            290,
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "label": "P05",
+      "role": "positive2",
+      "expected_control_decision": "same",
+      "items": [
+        {
+          "label": "A",
+          "source_region": "positive_2",
+          "box": [
+            1017,
+            680,
+            70,
+            52
+          ],
+          "context_box": [
+            914,
+            639,
+            250,
+            110
+          ]
+        },
+        {
+          "label": "B",
+          "source_region": "positive_2",
+          "box": [
+            1017,
+            680,
+            70,
+            52
+          ],
+          "context_box": [
+            914,
+            639,
+            250,
+            110
+          ]
+        }
+      ]
+    }
+  ],
+  "controls_truth_basis": "Independent source-only localizer, capture supplement Section2. Positives exact same crop bytes; negatives readable stable different arrangements without relying on uncertain loop closure.",
+  "packet_spec_sha256": "8c5e1ed59a387ce2e296912d83da18dc65c326a677dba1b085a2a71bd0379338"
+}

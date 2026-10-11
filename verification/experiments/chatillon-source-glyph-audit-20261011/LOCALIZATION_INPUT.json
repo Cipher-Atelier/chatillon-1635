@@ -1,0 +1,150 @@
+{
+  "source_image": "<LOCAL_WORKSPACE>/source-check-20261011/private-pixels/gallica-f139-highres.jpg",
+  "image_sha256": "280e87f86231baf87abe40d7679aeed7c9fc11796db7ec22b9863fbe067853f0",
+  "source_view": "Gallica139right",
+  "purpose": "Source-only localization of two masked positions; not decipherment or target class comparison.",
+  "targets": [
+    "v139R_C01_023",
+    "v139R_C02_017"
+  ],
+  "warning": "Working shape names are fallible annotations, not source certification. C01_001..011 absent from this extraction. The C02_008 cluster has multiple segmentation variants; do not silently count splits as distinct old IDs.",
+  "tokens": [
+    {
+      "id": "v139R_C01_012",
+      "working_shape": "S_y_cross"
+    },
+    {
+      "id": "v139R_C01_013",
+      "working_shape": "S_long_s_curve"
+    },
+    {
+      "id": "v139R_C01_014",
+      "working_shape": "S_h"
+    },
+    {
+      "id": "v139R_C01_015",
+      "working_shape": "S_y_plain"
+    },
+    {
+      "id": "v139R_C01_016",
+      "working_shape": "N21"
+    },
+    {
+      "id": "v139R_C01_017",
+      "working_shape": "S_crossed_q_or_4_shape"
+    },
+    {
+      "id": "v139R_C01_018",
+      "working_shape": "S_x"
+    },
+    {
+      "id": "v139R_C01_019",
+      "working_shape": "S_rho"
+    },
+    {
+      "id": "v139R_C01_020",
+      "working_shape": "S_pi"
+    },
+    {
+      "id": "v139R_C01_021",
+      "working_shape": "S_z_sweep"
+    },
+    {
+      "id": "v139R_C01_022",
+      "working_shape": "S_h"
+    },
+    {
+      "id": "v139R_C01_023",
+      "working_shape": "MASKED_TARGET"
+    },
+    {
+      "id": "v139R_C02_001",
+      "working_shape": "S_double_arch"
+    },
+    {
+      "id": "v139R_C02_002",
+      "working_shape": "S_delta_loop"
+    },
+    {
+      "id": "v139R_C02_003",
+      "working_shape": "S_c_open"
+    },
+    {
+      "id": "v139R_C02_004",
+      "working_shape": "S_z_sweep"
+    },
+    {
+      "id": "v139R_C02_005",
+      "working_shape": "S_leaf"
+    },
+    {
+      "id": "v139R_C02_006",
+      "working_shape": "S_h"
+    },
+    {
+      "id": "v139R_C02_007",
+      "working_shape": "S_loop_A"
+    },
+    {
+      "id": "v139R_C02_008",
+      "working_shape": "U_93y_cluster"
+    },
+    {
+      "id": "v139R_C02_009",
+      "working_shape": "S_z_sweep"
+    },
+    {
+      "id": "v139R_C02_010",
+      "working_shape": "S_HP_connected"
+    },
+    {
+      "id": "v139R_C02_011",
+      "working_shape": "S_h"
+    },
+    {
+      "id": "v139R_C02_012",
+      "working_shape": "S_lambda_angled"
+    },
+    {
+      "id": "v139R_C02_013",
+      "working_shape": "S_c_open"
+    },
+    {
+      "id": "v139R_C02_014",
+      "working_shape": "U_curve_cross_cluster"
+    },
+    {
+      "id": "v139R_C02_015",
+      "working_shape": "N2"
+    },
+    {
+      "id": "v139R_C02_016",
+      "working_shape": "S_a_plain"
+    },
+    {
+      "id": "v139R_C02_017",
+      "working_shape": "MASKED_TARGET"
+    },
+    {
+      "id": "v139R_C02_018",
+      "working_shape": "S_y_cross"
+    },
+    {
+      "id": "v139R_C02_019",
+      "working_shape": "S_epsilon_stacked"
+    },
+    {
+      "id": "v139R_C02_020",
+      "working_shape": "U_curve_cross_cluster"
+    },
+    {
+      "id": "v139R_C02_021",
+      "working_shape": "S_leaf"
+    }
+  ],
+  "segmentation_alternatives": [
+    "C02_008=one unresolved 93y-like cluster",
+    "C02_008_a=93, C02_008_b=masked hook",
+    "C02_008_a=9, C02_008_b=3, C02_008_c=masked hook"
+  ]
+}

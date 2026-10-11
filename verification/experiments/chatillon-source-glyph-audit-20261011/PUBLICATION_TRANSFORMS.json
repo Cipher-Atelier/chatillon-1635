@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "scope": "Publication copies only. Original local artifacts are unchanged. Frozen internal references remain original-byte hashes; they are not rewritten to publication hashes. Original-byte provenance claims cannot be independently recomputed without the withheld originals. No image bytes are included.",
+  "files": [
+    {
+      "file": "FROZEN_PROTOCOL.json",
+      "original_sha256": "9c6a8186c055d5bcb38c7397be4c12beaec1fa342d8899af59f9bed86327ae76",
+      "publication_sha256": "9c6a8186c055d5bcb38c7397be4c12beaec1fa342d8899af59f9bed86327ae76",
+      "original_bytes": 4889,
+      "publication_bytes": 4889,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "LOCALIZATION_INPUT.json",
+      "original_sha256": "6eecf481987a98be773c0a941155804a729b9ea37c8e4393a6a01d1a21a9fb75",
+      "publication_sha256": "0c6a30e06d3f92b79a88e97768f6885eb6a6b9893a0c7ef81de84c8f5db8bb01",
+      "original_bytes": 3429,
+      "publication_bytes": 3394,
+      "transformation": {
+        "type": "replace_exact_workspace_prefix",
+        "source_prefix_sha256": "11563110274e3108577b48417b1989e47e34a86c9d52f7edd2044aeb3f4ac4c1",
+        "replacement": "<LOCAL_WORKSPACE>",
+        "replacement_count": 1,
+        "operation": "UTF-8 decode; str.replace of exact original workspace prefix; UTF-8 encode; all other characters unchanged"
+      }
+    },
+    {
+      "file": "LOCALIZER_REPORT.txt",
+      "original_sha256": "80f198bbf8b1e597a700b7ef63f656ddd30efe5debb28d634850e908768484fd",
+      "publication_sha256": "80f198bbf8b1e597a700b7ef63f656ddd30efe5debb28d634850e908768484fd",
+      "original_bytes": 6078,
+      "publication_bytes": 6078,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "LOCALIZER_CAPTURE_SUPPLEMENT.txt",
+      "original_sha256": "4f74e9dc5cedfafe973f8555a74c9cbe5f5110b18c5855a7cb033796867cf8b9",
+      "publication_sha256": "4f74e9dc5cedfafe973f8555a74c9cbe5f5110b18c5855a7cb033796867cf8b9",
+      "original_bytes": 7673,
+      "publication_bytes": 7673,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "SOURCE_GATE_REVIEW.txt",
+      "original_sha256": "f3a79bdc5e4cdb4e54a346f30a226002025358633db1a3638a2ddb6d8753b309",
+      "publication_sha256": "f3a79bdc5e4cdb4e54a346f30a226002025358633db1a3638a2ddb6d8753b309",
+      "original_bytes": 9467,
+      "publication_bytes": 9467,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "PRE_OBSERVER_SCOPE.json",
+      "original_sha256": "e71a989d3dee8750b5dd31265de707550eb348e44e129a5b54c4b0b1906e0171",
+      "publication_sha256": "e71a989d3dee8750b5dd31265de707550eb348e44e129a5b54c4b0b1906e0171",
+      "original_bytes": 1554,
+      "publication_bytes": 1554,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "COORDINATOR_REGISTRY.json",
+      "original_sha256": "63a0d91a59c8a1c9c9f0f2cfd1fc60f698462323dc00c064a7ec4d036b2dad19",
+      "publication_sha256": "63a0d91a59c8a1c9c9f0f2cfd1fc60f698462323dc00c064a7ec4d036b2dad19",
+      "original_bytes": 4351,
+      "publication_bytes": 4351,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "PACKET_SPEC.json",
+      "original_sha256": "8c5e1ed59a387ce2e296912d83da18dc65c326a677dba1b085a2a71bd0379338",
+      "publication_sha256": "8c5e1ed59a387ce2e296912d83da18dc65c326a677dba1b085a2a71bd0379338",
+      "original_bytes": 2806,
+      "publication_bytes": 2806,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "PACKET_MANIFEST.json",
+      "original_sha256": "7fe2c882a2b94e50a9ca755fda90e175e3aca2d39a2d44ae39131b35b4d6f6bb",
+      "publication_sha256": "7fe2c882a2b94e50a9ca755fda90e175e3aca2d39a2d44ae39131b35b4d6f6bb",
+      "original_bytes": 15373,
+      "publication_bytes": 15373,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "build_packet.py",
+      "original_sha256": "17b30486c7b31e98ac91c5f07dc39e7daffaa07f876c2d2cdbc79c1df973582a",
+      "publication_sha256": "17b30486c7b31e98ac91c5f07dc39e7daffaa07f876c2d2cdbc79c1df973582a",
+      "original_bytes": 8042,
+      "publication_bytes": 8042,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "SOURCE_IMAGE.json",
+      "original_sha256": "dbbb010ac074001e0af268e627e755f7915afec145aedf2d97200cdaa26827b3",
+      "publication_sha256": "52fd24e54cad9787909d7a4922f6fc047f254034983d945fbb0e244915dec0a7",
+      "original_bytes": 660,
+      "publication_bytes": 532,
+      "transformation": {
+        "type": "remove_local_filesystem_fields",
+        "removed_top_level_keys": [
+          "path"
+        ],
+        "serialization": "UTF-8 JSON, ensure_ascii=false, indent=2, trailing LF; other JSON values unchanged"
+      }
+    },
+    {
+      "file": "CAPTURE_IMAGE.json",
+      "original_sha256": "37bddd95f53dbb37bc71270867e59810fe39cf2ce02dcc0e580e70aa22c1c7e2",
+      "publication_sha256": "b5d7e06efffa161d33db92cd8ff0da0fe8cad031df3f187f4cc1a41d7eeb4eef",
+      "original_bytes": 750,
+      "publication_bytes": 664,
+      "transformation": {
+        "type": "remove_local_filesystem_fields",
+        "removed_top_level_keys": [
+          "local_path"
+        ],
+        "serialization": "UTF-8 JSON, ensure_ascii=false, indent=2, trailing LF; other JSON values unchanged"
+      }
+    },
+    {
+      "file": "CAPTURE_IMAGE_02.json",
+      "original_sha256": "4436cbf04e2e870ceaeb9fc0070f84c5f53426a29f18ade0ad20c7ee5f965675",
+      "publication_sha256": "866b1372163d022eee66f030b6fa26b8a679722b1ba258e6c7dc25e0a55618dc",
+      "original_bytes": 790,
+      "publication_bytes": 701,
+      "transformation": {
+        "type": "remove_local_filesystem_fields",
+        "removed_top_level_keys": [
+          "local_path"
+        ],
+        "serialization": "UTF-8 JSON, ensure_ascii=false, indent=2, trailing LF; other JSON values unchanged"
+      }
+    },
+    {
+      "file": "BLINDED_OBSERVER_PROMPT.txt",
+      "original_sha256": "6fa14d59b4b27d13d98fae11b11e781e75cccaffed6c691f5d4bb5900c9c918c",
+      "publication_sha256": "5ec5f9caac81dba355d3b2874ba936ed56695eba5b475673c8147f4f5de33cee",
+      "original_bytes": 2676,
+      "publication_bytes": 2606,
+      "transformation": {
+        "type": "replace_exact_workspace_prefix",
+        "source_prefix_sha256": "11563110274e3108577b48417b1989e47e34a86c9d52f7edd2044aeb3f4ac4c1",
+        "replacement": "<LOCAL_WORKSPACE>",
+        "replacement_count": 2,
+        "operation": "UTF-8 decode; str.replace of exact original workspace prefix; UTF-8 encode; all other characters unchanged"
+      }
+    },
+    {
+      "file": "BLINDED_OBSERVER_RAW.txt",
+      "original_sha256": "12fb9da97984d650c30e06f84e95ea5bc2cf29824bf89f64d7c3a4ec9bb46833",
+      "publication_sha256": "12fb9da97984d650c30e06f84e95ea5bc2cf29824bf89f64d7c3a4ec9bb46833",
+      "original_bytes": 13981,
+      "publication_bytes": 13981,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "RESULTS.json",
+      "original_sha256": "d42dd97236884ec2c649a4d339b33c81be328b5a1268456cacbfdfc33b397412",
+      "publication_sha256": "d42dd97236884ec2c649a4d339b33c81be328b5a1268456cacbfdfc33b397412",
+      "original_bytes": 3798,
+      "publication_bytes": 3798,
+      "transformation": {
+        "type": "verbatim"
+      }
+    },
+    {
+      "file": "RUNTIME_AND_CHECKS.json",
+      "original_sha256": "24dca85e6ade171675ce5f36bf2e8de7a333d92a88fc11ec116a364e0a5b5102",
+      "publication_sha256": "24dca85e6ade171675ce5f36bf2e8de7a333d92a88fc11ec116a364e0a5b5102",
+      "original_bytes": 830,
+      "publication_bytes": 830,
+      "transformation": {
+        "type": "verbatim"
+      }
+    }
+  ]
+}

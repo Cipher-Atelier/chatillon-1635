@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-10-11T19:46:37.113490+00:00",
+  "question": "Fresh source audit and ancillary blinded crop description; named-pair admissibility assessed under unchanged frozen protocol",
+  "named_pair_source_gate": "unresolved",
+  "control_gate": "failed",
+  "controls_passed": 3,
+  "controls_total": 4,
+  "named_pair_final_decision": "unresolved",
+  "ancillary_target_raw_decision": "unresolved",
+  "ancillary_interpretation": "invalidated by failed frozen control gate; raw description retained only, no named-pair class certification",
+  "pairs": [
+    {
+      "label": "P01",
+      "role": "positive1",
+      "raw_decision": "same_physical_class",
+      "expected_control_decision": "same_physical_class",
+      "control_passed": true,
+      "source_regions_by_side": {
+        "A": "positive_1",
+        "B": "positive_1"
+      }
+    },
+    {
+      "label": "P02",
+      "role": "negative2",
+      "raw_decision": "different_physical_class",
+      "expected_control_decision": "different_physical_class",
+      "control_passed": true,
+      "source_regions_by_side": {
+        "A": "negative_2a",
+        "B": "negative_2b"
+      }
+    },
+    {
+      "label": "P03",
+      "role": "target",
+      "raw_decision": "unresolved",
+      "expected_control_decision": null,
+      "control_passed": null,
+      "source_regions_by_side": {
+        "A": "target_C02",
+        "B": "target_C01"
+      }
+    },
+    {
+      "label": "P04",
+      "role": "negative1",
+      "raw_decision": "different_physical_class",
+      "expected_control_decision": "different_physical_class",
+      "control_passed": true,
+      "source_regions_by_side": {
+        "A": "negative_1a",
+        "B": "negative_1b"
+      }
+    },
+    {
+      "label": "P05",
+      "role": "positive2",
+      "raw_decision": "unresolved",
+      "expected_control_decision": "same_physical_class",
+      "control_passed": false,
+      "source_regions_by_side": {
+        "A": "positive_2",
+        "B": "positive_2"
+      }
+    }
+  ],
+  "critical_limits": [
+    "C01 prefix missing from pinned public input; full physical ordering not independently established.",
+    "C02 upstream cluster grouping remains conditional on old IDs; historical coordinate inventory unavailable.",
+    "P05 byte-identical positive control rated unresolved because faint-trail attachment is unreadable; strict all-controls-pass gate fails. No replacement or retry after ratings.",
+    "P03 raw decision unresolved: lower enclosure/attachment hidden by dense ink in one crop. Do not infer loop absence or agreement from silhouette.",
+    "Physical class does not establish cipher output or historical key. No old computational experiment rerun. Full-reference zero in earlier packages is predetermined by input length and provides no independent historical refutation."
+  ],
+  "observer_isolation": "fresh fork with no inherited conversation; only anonymous PNG files and fixed rubric authorized; raw report declares all 40 files inspected; coordinator knew prior work",
+  "preregistration_limit": "locally recorded ordering and hashes, not independent authenticated preregistration",
+  "ai_assistance": "source localizer, protocol reviewer, packet implementation and blinded visual observer were AI agents; no external human expert validation",
+  "raw_observer_sha256": "12fb9da97984d650c30e06f84e95ea5bc2cf29824bf89f64d7c3a4ec9bb46833",
+  "prompt_original_sha256": "6fa14d59b4b27d13d98fae11b11e781e75cccaffed6c691f5d4bb5900c9c918c",
+  "protocol_original_sha256": "9c6a8186c055d5bcb38c7397be4c12beaec1fa342d8899af59f9bed86327ae76",
+  "registry_original_sha256": "63a0d91a59c8a1c9c9f0f2cfd1fc60f698462323dc00c064a7ec4d036b2dad19",
+  "packet_manifest_sha256": "7fe2c882a2b94e50a9ca755fda90e175e3aca2d39a2d44ae39131b35b4d6f6bb"
+}

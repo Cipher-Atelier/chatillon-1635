@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-10-11T19:47:16.693169+00:00",
+  "python_version": "3.13.9",
+  "pillow_version": "11.3.0",
+  "packet_builder_sha256": "17b30486c7b31e98ac91c5f07dc39e7daffaa07f876c2d2cdbc79c1df973582a",
+  "packet_construction": "native decoded JPEG samples -> PNG; optional 3x nearest-neighbor only",
+  "coordinator_integrity_check": "40 PNG hashes/byte sizes/dimensions verified against packet manifest; all 10 native crops compared pixel-for-pixel with exact source screenshot; both positive pairs confirmed byte-identical",
+  "source_pixels_published": false,
+  "historical_computations_reexecuted": false,
+  "timing_limits": "Local UTC records and file hashes only; no independent authenticated timestamp service. Observer dispatch followed PRE_OBSERVER_SCOPE and frozen registry; observer report preceded RESULTS."
+}
