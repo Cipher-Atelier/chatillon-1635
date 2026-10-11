@@ -22,7 +22,7 @@ N2: one letter → {f}; up to eight letters → {e, f, n, r}
 
 These sets describe outputs allowed by a declared alignment model. They do not establish the historical meaning of N2 or of the crossed sign.
 
-The successful local repeat example does not validate a global repeat operator. Complete-passage fits fail or depend on exposed text and grouping assumptions. No complete plaintext or unique full key is available.
+The successful local repeat example does not validate a global repeat operator. Complete-passage fits fail or depend on exposed text and grouping assumptions. No complete plaintext or unique full key is available. The [saved-width package](verification/experiments/chatillon-width-spectrum-20261007/README.txt) checks 384 historical records separately. The [equality diagnostic](verification/experiments/chatillon-slash-loop-consistency-20261011/README.md) and [source audit](verification/experiments/chatillon-source-glyph-audit-20261011/README.md) are also published; [their separate command scopes](verification/README.md#separate-package-scopes) distinguish them from the baseline replay. A full literal or translated edition is not included.
 
 ## Check one example by hand
 

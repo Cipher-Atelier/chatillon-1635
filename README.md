@@ -2,17 +2,22 @@
 
 Châtillon’s cipher letter to Servien from Nijmegen, dated 3 August 1635. Graphical signs and numerical groups are compared with possible clear-text counterparts.
 
-## What has been found?
+## Current result — 11 October 2026
 
-This is an unfinished reconstruction and a test of assumptions, not a complete decipherment. The current reproducible result shows how the possible reading of a crossed sign changes when the neighboring numeral N2 is allowed to emit more letters.
+No continuous decipherment, full literal reading, complete translation or uniquely validated key is available. Published calculations test how proposed sign groupings and output lengths fit already exposed candidate text. They reveal dependencies in the assumptions; they do not identify the signs’ historical meanings.
 
-A small example from the recorded result:
+| Evidence layer | Open this |
+| --- | --- |
+| Original | [Letter beginning, view135](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f135.item) · [cipher region, view139](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item) |
+| Recorded groups / conditional model | [Groups, reference wording and mappings](verification/experiments/chatillon-1635/config.json) |
+| Saved model output | [Baseline results](verification/experiments/verification_results.json) · [7 October width package](verification/experiments/chatillon-width-spectrum-20261007/README.txt) |
+| Interpretation of the calculations | [Research explanation](chatillon-1635/README.md) |
 
-```text
-N2: one letter → {f}; up to eight letters → {e, f, n, r}
-```
+In the baseline, N2 maximum width 1 permits crossed-sign output `{f}`; maximum width 8 permits `{e,f,n,r}`. [Check this dependency](READING_GUIDE.md#check-one-example-by-hand). The baseline covers 6,144 dependent alignment conditions and 24 width conditions; the separate saved-width package checks 384 stored records and arithmetic. Full-reference zero counts are predetermined by input-length limits and cannot independently refute historical wording.
 
-These sets describe outputs allowed by a declared alignment model. They do not establish the historical meaning of N2 or of the crossed sign.
+The published [equality diagnostic](verification/experiments/chatillon-slash-loop-consistency-20261011/README.md) has 24 dependent exploratory records; its protocol was corrected after production results. The [source audit](verification/experiments/chatillon-source-glyph-audit-20261011/README.md) leaves the named pair unresolved, with 3/4 passed controls and conditional historical-ID binding. All three later packages are on main. The [verification guide](verification/README.md#separate-package-scopes) gives each a separate command; the default check runs only the older baseline.
+
+**Missing evidence:** secure source-ID coordinates, resolved grouping and physical classes, a coherent key explaining all occurrences, and independent same-key material or a contemporary key. The source-audit findings are unresolved even before considering its failed control gate.
 
 ## Start reading
 
