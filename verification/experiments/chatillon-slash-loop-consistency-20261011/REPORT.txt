@@ -1,0 +1,111 @@
+Châtillon slash-loop consistency diagnostic — 11 October 2026
+
+STATUS: exploratory conditional model-consistency calculation under amended
+protocol v2. The initial calculation is retained for audit. It is not a valid
+conclusion under protocol v1, whose negative synthetic expected count was wrong.
+No strict preregistration, full decipherment, historical key value, or independent
+confirmation is claimed.
+
+QUESTION AND SCOPE
+Bind only v139R_C01_023 and v139R_C02_017, both annotated S_slash_loop, to the
+same positive-length output. Retain all eight non-N2 fixed mappings, all masked
+mapping flags, and all other unknown widths; N2 remains an independent unknown
+slot with maximum width 1 or 8. No plaintext/key repair, nulls, broader widths,
+language optimization, or extra equality assignments. Count prefix endpoints.
+Twelve named scenarios share six effective prefix cases; 24 named scenario/bound
+records share 12 effective case/bound records. These are dependent alternatives.
+
+RESULTS
+All 24 baseline counts, crossed-target/N2 projections and endpoint histograms
+exactly reproduce the archived config. An independent augmented-state DP agrees
+with all baseline/equality counts, projections, joint outputs and endpoints.
+9 synthetic control tests pass. Software: CPython 3.13.9, standard library only.
+
+For each of the two named sous references:
+  source_reader_provisional_grandz_single_word_sous
+  source_reader_grands_sensitivity_single_word_sous
+the complete joint slash-output histograms are:
+
+  grouping                           N2max  baseline equality  joint (first,second):count
+  conditional_93_plus_hook              1        2        1   (i,f):1 (i,i):1
+  conditional_93_plus_hook              8       11        1   (i,e):4 (i,f):2 (i,i):1 (i,r):4
+  conditional_9_plus_3_plus_hook         1        8        4   (i,f):4 (i,i):4
+  conditional_9_plus_3_plus_hook         8       44        4   (i,e):16 (i,f):8 (i,i):4 (i,r):16
+
+Thus all eight baseline-nonempty named records retain equality-compatible paths
+(four effective case/bound records). On every surviving path the two slash outputs
+are i/i, crossed targets v139R_C01_012 and v139R_C02_018 emit s and f, N2 emits r,
+and the reference endpoint is 39. Equality leaves one path per 93+hook record,
+four per 9+3+hook record. All joint counts, surviving projections and endpoints
+are preserved in RESULTS.json. They are conditional emissions, not accepted key
+assignments.
+
+The other 16 named records have baseline=0, equality=0, empty joint histograms,
+empty projections and empty endpoint histograms. They add no negative evidence
+about the new equality constraint because their inherited baseline is empty.
+
+PROTOCOL AMENDMENT AND AUDIT TRAIL
+Before the first production run, code tests counted prefix paths, whereas v1
+wording expected one independent path for X,q,X against abqac at widths 1..2.
+There are two independent prefix paths: (ab,q,a) ending at 4 and (ab,q,ac)
+ending at 5. Neither has equal X. There is only one strict full-endpoint path.
+The first tests asserted the correct two prefix paths and one strict endpoint,
+but this did not satisfy v1's written prefix criterion. The implementer proceeded
+before resolving that discrepancy. Production outputs were already seen when
+the amendment was made. The positive abqab control similarly has two prefix
+paths, of which one (ab,q,ab) has equal X; its equality criterion was correct.
+
+Protocol v2 corrects only the negative prefix expected count from 1 to 2 and
+explicitly records the post-result amendment. No input, production hypothesis,
+width family, mappings, production success/rejection rule, or solver algorithm
+changed. Code updates pin v2, report its exploratory/amended status, and check
+derived summary consistency. The corrected run's records and summary are
+identical to the initial run's, verified by direct JSON comparison.
+
+initial-run/ preserves the exact original PROTOCOL.json, RESULTS.json and three
+code files. These are audit snapshots, not the current runnable workflow.
+
+REAL COMMANDS EXECUTED, FROM THIS EXPERIMENT DIRECTORY
+Initial and corrected runs both executed:
+  python3 tests.py
+  python3 run_test.py --output RESULTS.json
+  python3 independent_check.py RESULTS.json
+The parent preserved the first result before the corrected exclusive output.
+Additional read-only JSON/hash comparisons verified unchanged production records,
+unchanged summary, original and corrected protocol hashes, and unchanged input.
+No old test_widths, old independent_check, verification/check_all or experiments/
+verify.py was executed. No network, commit, push, or source-image copying occurred
+within this implementation task.
+
+SHA-256
+Input config: b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872
+Initial protocol: 9f0c55212ada57055295dec79406f3476899191298fd5f29bf93d15d373fb6d1
+Initial results: 72645745cdb67e982511010d2b778d8d801f07fb9e1c30abe1d30638261b32fe
+Protocol v2: 4a97a1f573ed94579a7b934e917f7d6eef59391c01e7cc9ac9d1b3c967bed1d2
+Corrected results: a568da62ef588a7d0c9f845307b0a37d0c66e7aff6d903a1992283c47d9f3dc3
+Current code hashes are in RESULTS.json. SHA256SUMS.txt covers this directory's
+saved files recursively, excluding itself and Python caches. Fingerprints verify
+bytes, not historical truth.
+
+LIMITATIONS (VERBATIM FROM PROTOCOL)
+All reference wording, key assumptions and older diagnostic results were already exposed. This is a conditional model-consistency diagnostic, not blind validation.
+Source glyph identity is a recorded annotation and has not been independently certified from pixels here.
+No full-key or full-letter solution is inferred; successful remaining unknown slots need not be globally coherent.
+Zero full-reference counts are structurally guaranteed by input length and are not an outcome or success criterion of this test.
+History check covers published config/code/report and October7 wrapper. Personal-context retrieval and earlier ZIP bytes were unavailable; no claim of exhaustive novelty across private prior work.
+
+SOURCE AVAILABILITY AND NEXT EVIDENCE
+The parent task reports that Gallica view139/f139 was accessible in Chrome and
+the manuscript image was inspected at general scale. Primary-source view:
+https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f139.item
+There is no independent
+adjudication of the two specific slash-loop glyphs here; config has token IDs,
+not their source-image bounding boxes. The next concrete missing evidence is
+independent sign adjudication for v139R_C01_023 and v139R_C02_017, and independent
+text known to use the same key for testing an extension beyond exposed wording.
+The calculation itself requires neither image redistribution nor a modern-text
+copy. No new images or copyrighted source excerpts are included.
+
+AI ASSISTANCE
+Codex selected the hypothesis, specified the protocol and checks; code and
+read-only review are AI-assisted, not human expert validation.

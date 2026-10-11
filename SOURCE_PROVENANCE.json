@@ -228,5 +228,35 @@
       "previous_sha256": "0973b0d775b36c75196dd14afbb88661a8a6bcbf9fb634f44f3eb036944aa3f3",
       "current_sha256": "ccbe6adc2fec5b77e86ceb5d3a284d1586260291ad68000f40d75e4c0e503887"
     }
+  },
+  "slash_loop_consistency_diagnostic_20261011": {
+    "date_utc": "2026-10-11",
+    "base_commit": "5440c0a2f845a7cb92181ea99d640dc09e508274",
+    "scope": "New exploratory joint-emission consistency diagnostic over the unchanged published input; no plaintext/key repair or historical replay.",
+    "input_path": "verification/experiments/chatillon-1635/config.json",
+    "input_sha256": "b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872",
+    "experiment_directory": "verification/experiments/chatillon-slash-loop-consistency-20261011",
+    "protocol_sha256": "4a97a1f573ed94579a7b934e917f7d6eef59391c01e7cc9ac9d1b3c967bed1d2",
+    "initial_protocol_sha256": "9f0c55212ada57055295dec79406f3476899191298fd5f29bf93d15d373fb6d1",
+    "protocol_amendment": "One synthetic-control independent prefix-count expectation corrected after production results were exposed; initial protocol/results/code retained verbatim for audit. No strict preregistration claim.",
+    "evidence_limit": "Arithmetic and recorded-model consistency, not historical decipherment or independently certified glyph identity. Full-match zero is predetermined by input length.",
+    "source_access": "Gallica view139 primary image accessible on 2026-10-11; no scan or crop redistributed. Earlier Library search archives and personal-context retrieval were unavailable in this execution, so private-history novelty was not certified.",
+    "historical_files": "All previously published research inputs, code, saved results and historical account preserved byte-for-byte. Existing provenance inventories remain publication snapshots.",
+    "navigation_file": {
+      "path": "README.md",
+      "previous_sha256": "0973b0d775b36c75196dd14afbb88661a8a6bcbf9fb634f44f3eb036944aa3f3",
+      "current_sha256": "b0451ca62741486c55e33310f559c51b6ebccd92a09053f336f567097d82da56"
+    },
+    "rights": "Source-specific credits/restrictions retained; no new blanket licence. No restricted scans, private notes or Library archive bytes added.",
+    "ai_assistance": "Hypothesis selection, implementation and code review are AI-assisted; no external human expert validation claimed."
+  },
+  "integration_metadata_update_20261011_pr5": {
+    "scope": "Integrate the merged width-spectrum package and slash-loop diagnostic. Preserve original package bytes, source links, limitations and historical provenance snapshots; update combined navigation and checksum inventory only.",
+    "previous_main": "d718e61d392fb748f3f4a877347d21b4aceeb21e",
+    "original_pr5_head": "152a4c9aa96c87689d9219f458013f230a52113e",
+    "navigation_file": {
+      "path": "README.md",
+      "current_sha256": "217174795ff05416bcace99f41fa60977822df35e1839fbe6ba6bbec99a95ac1"
+    }
   }
 }

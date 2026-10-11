@@ -1,0 +1,1206 @@
+{
+  "schema_version": 1,
+  "status": "exploratory_calculation_completed_after_protocol_amendment",
+  "protocol_status": "post-result correction of one synthetic-control expected count; exploratory diagnostic, not strict preregistration",
+  "protocol_amendment": {
+    "initial_protocol_sha256": "9f0c55212ada57055295dec79406f3476899191298fd5f29bf93d15d373fb6d1",
+    "initial_results_sha256": "72645745cdb67e982511010d2b778d8d801f07fb9e1c30abe1d30638261b32fe",
+    "production_results_seen_before_amendment": true,
+    "change": "Correct X,q,X against abqac from one to two independent prefix paths (endpoints 4 and 5); zero equal-X paths unchanged.",
+    "reason": "The original wording counted only the full endpoint, whereas the declared production and synthetic model admits prefix endpoints.",
+    "unchanged": "No change to input bytes, binding pair, references, mappings, widths, production success/rejection criteria, solver algorithm or observed production counts.",
+    "initial_run_status": "The calculation is retained verbatim for audit; the original synthetic-control wording was not satisfied, so it is not a valid conclusion under protocol v1.",
+    "snapshot": "initial-run/ contains original protocol, results and three code files. These are audit bytes; current files provide the corrected reproducible workflow."
+  },
+  "method": "explicit finite path enumeration",
+  "date_utc": "2026-10-11",
+  "python": "3.13.9",
+  "implementation": "CPython",
+  "hashes": {
+    "input_sha256": "b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872",
+    "protocol_sha256": "4a97a1f573ed94579a7b934e917f7d6eef59391c01e7cc9ac9d1b3c967bed1d2",
+    "code_sha256": {
+      "run_test.py": "178a605fde3019d25f79517ec755900cd083c5903d869f042b29aa3ab98ef823",
+      "independent_check.py": "26762dde0051d47b5ec14e38fff13222f770cb32d26623c337ebc9753c7c7db4",
+      "tests.py": "ebd20090cf5dd4c06d633011a86ac4ee53807b456488b200e81eb04171374b1c"
+    }
+  },
+  "commands": [
+    "python3 tests.py",
+    "python3 run_test.py --output RESULTS.json",
+    "python3 independent_check.py RESULTS.json"
+  ],
+  "constraints": {
+    "binding_pair": [
+      "v139R_C01_023",
+      "v139R_C02_017"
+    ],
+    "pair_shape": "S_slash_loop",
+    "n2_max_widths": [
+      1,
+      8
+    ],
+    "retained_fixed_mapping": {
+      "S_c_open": "e",
+      "S_h": "u",
+      "S_leaf": "e",
+      "S_pi": "n",
+      "S_rho": "o",
+      "S_x": "c",
+      "S_y_plain": "s",
+      "S_z_sweep": "d"
+    },
+    "unknown_occurrences": "independent except declared pair equality",
+    "endpoint_policy": "all token paths fitting a reference prefix",
+    "mapping_masked": "retained verbatim; no fixed literal when masked",
+    "target_projections": "in declared projection_ids order; includes N2 after crossed targets"
+  },
+  "limitations": [
+    "All reference wording, key assumptions and older diagnostic results were already exposed. This is a conditional model-consistency diagnostic, not blind validation.",
+    "Source glyph identity is a recorded annotation and has not been independently certified from pixels here.",
+    "No full-key or full-letter solution is inferred; successful remaining unknown slots need not be globally coherent.",
+    "Zero full-reference counts are structurally guaranteed by input length and are not an outcome or success criterion of this test.",
+    "History check covers published config/code/report and October7 wrapper. Personal-context retrieval and earlier ZIP bytes were unavailable; no claim of exhaustive novelty across private prior work."
+  ],
+  "bounds": "No plaintext repair, key repair, nulls, broader width family, language-model optimization or search for fluent text. Do not run either October7 experiment script or the 6144-ablation replay.",
+  "ai_assistance": "Codex selected the hypothesis, specified the protocol and checks; code and read-only review are AI-assisted, not human expert validation.",
+  "summary": {
+    "named_scenarios": 12,
+    "effective_prefix_cases": 6,
+    "scenario_bound_records": 24,
+    "effective_case_bound_records": 12,
+    "baseline_nonempty_records": 8,
+    "equality_nonempty_records": 8,
+    "all_archived_baselines_match": true
+  },
+  "records": [
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "n2_max_width": 1,
+      "effective_case": "effective_01",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "n2_max_width": 8,
+      "effective_case": "effective_01",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "n2_max_width": 1,
+      "effective_case": "effective_02",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "n2_max_width": 8,
+      "effective_case": "effective_02",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "n2_max_width": 1,
+      "effective_case": "effective_03",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "n2_max_width": 8,
+      "effective_case": "effective_03",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "n2_max_width": 1,
+      "effective_case": "effective_04",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "n2_max_width": 8,
+      "effective_case": "effective_04",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "n2_max_width": 1,
+      "effective_case": "effective_05",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 2,
+        "projections": [
+          {
+            "s": 2
+          },
+          {
+            "f": 2
+          },
+          {
+            "d": 1,
+            "r": 1
+          }
+        ],
+        "end_positions": {
+          "39": 2
+        }
+      },
+      "joint_slash_outputs": [
+        {
+          "first": "i",
+          "second": "f",
+          "count": 1
+        },
+        {
+          "first": "i",
+          "second": "i",
+          "count": 1
+        }
+      ],
+      "equality": {
+        "count": 1,
+        "joint_slash_outputs": [
+          {
+            "first": "i",
+            "second": "i",
+            "count": 1
+          }
+        ],
+        "projections": [
+          {
+            "s": 1
+          },
+          {
+            "f": 1
+          },
+          {
+            "r": 1
+          }
+        ],
+        "end_positions": {
+          "39": 1
+        }
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "n2_max_width": 8,
+      "effective_case": "effective_05",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 11,
+        "projections": [
+          {
+            "s": 11
+          },
+          {
+            "e": 4,
+            "f": 3,
+            "n": 2,
+            "r": 2
+          },
+          {
+            "d": 1,
+            "dif": 1,
+            "diff": 2,
+            "diffe": 1,
+            "r": 1,
+            "rd": 1,
+            "rdif": 1,
+            "rdiff": 2,
+            "rdiffe": 1
+          }
+        ],
+        "end_positions": {
+          "39": 3,
+          "42": 4,
+          "43": 4
+        }
+      },
+      "joint_slash_outputs": [
+        {
+          "first": "i",
+          "second": "e",
+          "count": 4
+        },
+        {
+          "first": "i",
+          "second": "f",
+          "count": 2
+        },
+        {
+          "first": "i",
+          "second": "i",
+          "count": 1
+        },
+        {
+          "first": "i",
+          "second": "r",
+          "count": 4
+        }
+      ],
+      "equality": {
+        "count": 1,
+        "joint_slash_outputs": [
+          {
+            "first": "i",
+            "second": "i",
+            "count": 1
+          }
+        ],
+        "projections": [
+          {
+            "s": 1
+          },
+          {
+            "f": 1
+          },
+          {
+            "r": 1
+          }
+        ],
+        "end_positions": {
+          "39": 1
+        }
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "n2_max_width": 1,
+      "effective_case": "effective_06",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 8,
+        "projections": [
+          {
+            "s": 8
+          },
+          {
+            "f": 8
+          },
+          {
+            "d": 4,
+            "r": 4
+          }
+        ],
+        "end_positions": {
+          "39": 8
+        }
+      },
+      "joint_slash_outputs": [
+        {
+          "first": "i",
+          "second": "f",
+          "count": 4
+        },
+        {
+          "first": "i",
+          "second": "i",
+          "count": 4
+        }
+      ],
+      "equality": {
+        "count": 4,
+        "joint_slash_outputs": [
+          {
+            "first": "i",
+            "second": "i",
+            "count": 4
+          }
+        ],
+        "projections": [
+          {
+            "s": 4
+          },
+          {
+            "f": 4
+          },
+          {
+            "r": 4
+          }
+        ],
+        "end_positions": {
+          "39": 4
+        }
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "n2_max_width": 8,
+      "effective_case": "effective_06",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 44,
+        "projections": [
+          {
+            "s": 44
+          },
+          {
+            "e": 16,
+            "f": 12,
+            "n": 8,
+            "r": 8
+          },
+          {
+            "d": 4,
+            "dif": 4,
+            "diff": 8,
+            "diffe": 4,
+            "r": 4,
+            "rd": 4,
+            "rdif": 4,
+            "rdiff": 8,
+            "rdiffe": 4
+          }
+        ],
+        "end_positions": {
+          "39": 12,
+          "42": 16,
+          "43": 16
+        }
+      },
+      "joint_slash_outputs": [
+        {
+          "first": "i",
+          "second": "e",
+          "count": 16
+        },
+        {
+          "first": "i",
+          "second": "f",
+          "count": 8
+        },
+        {
+          "first": "i",
+          "second": "i",
+          "count": 4
+        },
+        {
+          "first": "i",
+          "second": "r",
+          "count": 16
+        }
+      ],
+      "equality": {
+        "count": 4,
+        "joint_slash_outputs": [
+          {
+            "first": "i",
+            "second": "i",
+            "count": 4
+          }
+        ],
+        "projections": [
+          {
+            "s": 4
+          },
+          {
+            "f": 4
+          },
+          {
+            "r": 4
+          }
+        ],
+        "end_positions": {
+          "39": 4
+        }
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "n2_max_width": 1,
+      "effective_case": "effective_01",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "n2_max_width": 8,
+      "effective_case": "effective_01",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "n2_max_width": 1,
+      "effective_case": "effective_02",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "n2_max_width": 8,
+      "effective_case": "effective_02",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "n2_max_width": 1,
+      "effective_case": "effective_03",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "n2_max_width": 8,
+      "effective_case": "effective_03",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "n2_max_width": 1,
+      "effective_case": "effective_04",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "n2_max_width": 8,
+      "effective_case": "effective_04",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 0,
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      },
+      "joint_slash_outputs": [],
+      "equality": {
+        "count": 0,
+        "joint_slash_outputs": [],
+        "projections": [
+          {},
+          {},
+          {}
+        ],
+        "end_positions": {}
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "n2_max_width": 1,
+      "effective_case": "effective_05",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 2,
+        "projections": [
+          {
+            "s": 2
+          },
+          {
+            "f": 2
+          },
+          {
+            "d": 1,
+            "r": 1
+          }
+        ],
+        "end_positions": {
+          "39": 2
+        }
+      },
+      "joint_slash_outputs": [
+        {
+          "first": "i",
+          "second": "f",
+          "count": 1
+        },
+        {
+          "first": "i",
+          "second": "i",
+          "count": 1
+        }
+      ],
+      "equality": {
+        "count": 1,
+        "joint_slash_outputs": [
+          {
+            "first": "i",
+            "second": "i",
+            "count": 1
+          }
+        ],
+        "projections": [
+          {
+            "s": 1
+          },
+          {
+            "f": 1
+          },
+          {
+            "r": 1
+          }
+        ],
+        "end_positions": {
+          "39": 1
+        }
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "n2_max_width": 8,
+      "effective_case": "effective_05",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 11,
+        "projections": [
+          {
+            "s": 11
+          },
+          {
+            "e": 4,
+            "f": 3,
+            "n": 2,
+            "r": 2
+          },
+          {
+            "d": 1,
+            "dif": 1,
+            "diff": 2,
+            "diffe": 1,
+            "r": 1,
+            "rd": 1,
+            "rdif": 1,
+            "rdiff": 2,
+            "rdiffe": 1
+          }
+        ],
+        "end_positions": {
+          "39": 3,
+          "42": 4,
+          "43": 4
+        }
+      },
+      "joint_slash_outputs": [
+        {
+          "first": "i",
+          "second": "e",
+          "count": 4
+        },
+        {
+          "first": "i",
+          "second": "f",
+          "count": 2
+        },
+        {
+          "first": "i",
+          "second": "i",
+          "count": 1
+        },
+        {
+          "first": "i",
+          "second": "r",
+          "count": 4
+        }
+      ],
+      "equality": {
+        "count": 1,
+        "joint_slash_outputs": [
+          {
+            "first": "i",
+            "second": "i",
+            "count": 1
+          }
+        ],
+        "projections": [
+          {
+            "s": 1
+          },
+          {
+            "f": 1
+          },
+          {
+            "r": 1
+          }
+        ],
+        "end_positions": {
+          "39": 1
+        }
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "n2_max_width": 1,
+      "effective_case": "effective_06",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 8,
+        "projections": [
+          {
+            "s": 8
+          },
+          {
+            "f": 8
+          },
+          {
+            "d": 4,
+            "r": 4
+          }
+        ],
+        "end_positions": {
+          "39": 8
+        }
+      },
+      "joint_slash_outputs": [
+        {
+          "first": "i",
+          "second": "f",
+          "count": 4
+        },
+        {
+          "first": "i",
+          "second": "i",
+          "count": 4
+        }
+      ],
+      "equality": {
+        "count": 4,
+        "joint_slash_outputs": [
+          {
+            "first": "i",
+            "second": "i",
+            "count": 4
+          }
+        ],
+        "projections": [
+          {
+            "s": 4
+          },
+          {
+            "f": 4
+          },
+          {
+            "r": 4
+          }
+        ],
+        "end_positions": {
+          "39": 4
+        }
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "n2_max_width": 8,
+      "effective_case": "effective_06",
+      "projection_ids": [
+        "v139R_C01_012",
+        "v139R_C02_018",
+        "v139R_C02_015"
+      ],
+      "baseline_matches_archive": true,
+      "baseline": {
+        "count": 44,
+        "projections": [
+          {
+            "s": 44
+          },
+          {
+            "e": 16,
+            "f": 12,
+            "n": 8,
+            "r": 8
+          },
+          {
+            "d": 4,
+            "dif": 4,
+            "diff": 8,
+            "diffe": 4,
+            "r": 4,
+            "rd": 4,
+            "rdif": 4,
+            "rdiff": 8,
+            "rdiffe": 4
+          }
+        ],
+        "end_positions": {
+          "39": 12,
+          "42": 16,
+          "43": 16
+        }
+      },
+      "joint_slash_outputs": [
+        {
+          "first": "i",
+          "second": "e",
+          "count": 16
+        },
+        {
+          "first": "i",
+          "second": "f",
+          "count": 8
+        },
+        {
+          "first": "i",
+          "second": "i",
+          "count": 4
+        },
+        {
+          "first": "i",
+          "second": "r",
+          "count": 16
+        }
+      ],
+      "equality": {
+        "count": 4,
+        "joint_slash_outputs": [
+          {
+            "first": "i",
+            "second": "i",
+            "count": 4
+          }
+        ],
+        "projections": [
+          {
+            "s": 4
+          },
+          {
+            "f": 4
+          },
+          {
+            "r": 4
+          }
+        ],
+        "end_positions": {
+          "39": 4
+        }
+      }
+    }
+  ]
+}
