@@ -1,0 +1,359 @@
+{
+  "historical_experiment_date": "2026-10-07",
+  "packaging_validation_date_utc": "2026-10-11",
+  "experiment_rerun_during_packaging": false,
+  "summary_basis": "Read-only aggregation of preserved RESULTS.json and static config.json bounds",
+  "record_count": 384,
+  "scenario_count": 12,
+  "reference_lengths": [
+    110,
+    111
+  ],
+  "saved_successful_endpoints": [
+    39,
+    42,
+    43
+  ],
+  "maximum_consumed_length_at_n2_width_8_by_scenario": [
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "reference_length": 111,
+      "maximum_consumed_length": 50
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "reference_length": 111,
+      "maximum_consumed_length": 57
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "reference_length": 111,
+      "maximum_consumed_length": 65
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "reference_length": 110,
+      "maximum_consumed_length": 50
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "reference_length": 110,
+      "maximum_consumed_length": 57
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "reference_length": 110,
+      "maximum_consumed_length": 65
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "reference_length": 111,
+      "maximum_consumed_length": 50
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "reference_length": 111,
+      "maximum_consumed_length": 57
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "reference_length": 111,
+      "maximum_consumed_length": 65
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "reference_length": 110,
+      "maximum_consumed_length": 50
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "reference_length": 110,
+      "maximum_consumed_length": 57
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "reference_length": 110,
+      "maximum_consumed_length": 65
+    }
+  ],
+  "conditions": [
+    {
+      "control": "original",
+      "record_count": 96,
+      "nonempty_record_count": 24,
+      "saved_prefix_path_total_over_named_scenarios": 110,
+      "saved_full_endpoint_total": 0,
+      "exact_widths": [
+        {
+          "width": 1,
+          "saved_prefix_path_total_over_named_scenarios": 20,
+          "closed_sign_outputs": [
+            "f"
+          ],
+          "n2_substrings": [
+            "d",
+            "r"
+          ]
+        },
+        {
+          "width": 2,
+          "saved_prefix_path_total_over_named_scenarios": 10,
+          "closed_sign_outputs": [
+            "f"
+          ],
+          "n2_substrings": [
+            "rd"
+          ]
+        },
+        {
+          "width": 3,
+          "saved_prefix_path_total_over_named_scenarios": 10,
+          "closed_sign_outputs": [
+            "r"
+          ],
+          "n2_substrings": [
+            "dif"
+          ]
+        },
+        {
+          "width": 4,
+          "saved_prefix_path_total_over_named_scenarios": 30,
+          "closed_sign_outputs": [
+            "e",
+            "r"
+          ],
+          "n2_substrings": [
+            "diff",
+            "rdif"
+          ]
+        },
+        {
+          "width": 5,
+          "saved_prefix_path_total_over_named_scenarios": 30,
+          "closed_sign_outputs": [
+            "e",
+            "n"
+          ],
+          "n2_substrings": [
+            "diffe",
+            "rdiff"
+          ]
+        },
+        {
+          "width": 6,
+          "saved_prefix_path_total_over_named_scenarios": 10,
+          "closed_sign_outputs": [
+            "n"
+          ],
+          "n2_substrings": [
+            "rdiffe"
+          ]
+        },
+        {
+          "width": 7,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 8,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        }
+      ]
+    },
+    {
+      "control": "rotate",
+      "record_count": 96,
+      "nonempty_record_count": 0,
+      "saved_prefix_path_total_over_named_scenarios": 0,
+      "saved_full_endpoint_total": 0,
+      "exact_widths": [
+        {
+          "width": 1,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 2,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 3,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 4,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 5,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 6,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 7,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 8,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        }
+      ]
+    },
+    {
+      "control": "reverse",
+      "record_count": 96,
+      "nonempty_record_count": 0,
+      "saved_prefix_path_total_over_named_scenarios": 0,
+      "saved_full_endpoint_total": 0,
+      "exact_widths": [
+        {
+          "width": 1,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 2,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 3,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 4,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 5,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 6,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 7,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 8,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        }
+      ]
+    },
+    {
+      "control": "swap",
+      "record_count": 96,
+      "nonempty_record_count": 0,
+      "saved_prefix_path_total_over_named_scenarios": 0,
+      "saved_full_endpoint_total": 0,
+      "exact_widths": [
+        {
+          "width": 1,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 2,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 3,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 4,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 5,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 6,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 7,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        },
+        {
+          "width": 8,
+          "saved_prefix_path_total_over_named_scenarios": 0,
+          "closed_sign_outputs": [],
+          "n2_substrings": []
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Not a decipherment, full coherent key, blind test, or independent plaintext witness.",
+    "Unknown occurrences remain independent and eight inherited non-N2 mappings are retained.",
+    "Named scenarios are duplicated over the consumed prefix; path totals are not independent trials.",
+    "All successful saved paths require conditional sous wording and conditional token grouping.",
+    "Negative controls diagnose dependence on retained anchors, not calibrated statistical significance.",
+    "Zero strict full-reference counts are structurally guaranteed by the token-span bounds.",
+    "Static integrity and arithmetic checks do not independently regenerate alignment results."
+  ]
+}

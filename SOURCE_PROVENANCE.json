@@ -142,5 +142,91 @@
         "current_sha256": "d145a7edf80439047bbd58b3cdfd5a21c475102b742719f880976e8f63c32bdc"
       }
     ]
+  },
+  "saved_width_spectrum_package_update": {
+    "date_utc": "2026-10-11",
+    "previous_commit": "5440c0a2f845a7cb92181ea99d640dc09e508274",
+    "historical_experiment_date": "2026-10-07",
+    "source_archive": {
+      "filename": "chatillon-width-spectrum-20261007.zip",
+      "size_bytes": 18909,
+      "sha256": "cba9ab19a752d2ba500fe95ac59f706e14e3c6fcafcfedefe4091242c08b5aa2"
+    },
+    "destination_directory": "verification/experiments/chatillon-width-spectrum-20261007",
+    "scope": "Verbatim import of a cleaned historical package; README navigation and current checksum inventory updated. Seven historical originals and all existing scientific inputs, code and saved results are unchanged. Earlier provenance inventories remain publication snapshots.",
+    "validation": "Read-only integrity, syntax, coverage and arithmetic checks of 384 saved records and static token-span bounds. Neither historical experiment program was executed; alignment paths were not independently regenerated.",
+    "limitations": [
+      "Not a decipherment, complete coherent key, blind validation or independent plaintext witness.",
+      "Zero strict full-reference counts are guaranteed by input length: maximum spans 50, 57 or 65 versus reference lengths 110 or 111; this cannot independently refute the historical text.",
+      "Checksums establish byte integrity, not authorship or independent historical timestamps."
+    ],
+    "excluded_materials": "No manuscript images, DOCX report, unrelated June input, private notes or credentials are imported. Historical README and manifest references to excluded files are retained and explained by the wrapper.",
+    "files": [
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/PROVENANCE.txt",
+        "sha256": "2ca32be3d5a747f476619d32a229cd83524045044c1af5ecd2709456b854c12d",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/README.txt",
+        "sha256": "d8747e9b9e4a8d521d98dd6381899d55984d5229865c7dcf76a1649467dded83",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/SAVED_RESULTS_SUMMARY.json",
+        "sha256": "bde3bfc1965a2c7203c20cfbee8b39f5dfdfb590262b1097aaadabffbb1e99ee",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/SHA256SUMS.txt",
+        "sha256": "722596ed2b0f84df08722f26bc2421552a4ed8b84c3e6991204a1966bc4f1c29",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/original/PROTOCOL.txt",
+        "sha256": "dc4263f8faabada4299a00ecd403602078e82cc25c2c841c0b18663cf4154622",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/original/README.txt",
+        "sha256": "35a25abc5e44405fb5c9e26a3e60cc061c9e161d291732221fa88fd58cddbe6e",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/original/RESULTS.json",
+        "sha256": "c91a6efaf454b0ae1fd57dfcefb74b3797b57f52d7f663c259eaeff093f38d35",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/original/SHA256SUMS.json",
+        "sha256": "e8eb75ce618ece23bf02a5754cd990c831dd27fa102562b24fc89a964963c599",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/original/config.json",
+        "sha256": "b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/original/independent_check.py",
+        "sha256": "c64c25a61b4277728d86c1d7c47a8ccc74cbd0177b2e6caa270a9760e1bcd938",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/original/test_widths.py",
+        "sha256": "617a46c4ec7a1d901ad7e9a120f3e377800e301fb750892d8bf12da188bac034",
+        "transform": "verbatim package file"
+      },
+      {
+        "path": "verification/experiments/chatillon-width-spectrum-20261007/verify_saved_artifacts.py",
+        "sha256": "7f9c819d8123eb30bece98b8e7b5a4f929f09ae6f506c8fd229ecb032e3142ed",
+        "transform": "verbatim package file"
+      }
+    ],
+    "navigation_file": {
+      "path": "README.md",
+      "previous_sha256": "0973b0d775b36c75196dd14afbb88661a8a6bcbf9fb634f44f3eb036944aa3f3",
+      "current_sha256": "ccbe6adc2fec5b77e86ceb5d3a284d1586260291ad68000f40d75e4c0e503887"
+    }
   }
 }
