@@ -82,6 +82,38 @@ The following are the expected status/topic/replay fields; the actual report als
 
 In ordinary words: **6,144 dependent alignment conditions and 24 width conditions reproduce; the saved candidate sets are 1 → [f] and 8 → [e, f, n, r].**
 
+## Separate package scopes
+
+The root `check_all.py` runs only `experiments/verify.py`, covering the older 6,144 dependent alignment conditions and 24 width conditions. It does not run later packages. All three packages below are published on main; each command checks its stated scope.
+
+**On main:** the [7 October width-spectrum package](experiments/chatillon-width-spectrum-20261007/README.txt), merged through PR4, has 384 saved records. From the root, with Python 3.8+ and the standard library:
+
+```sh
+python3 verification/experiments/chatillon-width-spectrum-20261007/verify_saved_artifacts.py
+```
+
+This checks integrity and stored arithmetic, not fresh path enumeration. Its full-reference zero counts follow from input-length limits and cannot independently refute the historical text.
+
+**Equality diagnostic:** [package README](experiments/chatillon-slash-loop-consistency-20261011/README.md). With Python 3.10+, enter its package directory from the repository root:
+
+```sh
+cd verification/experiments/chatillon-slash-loop-consistency-20261011
+python3 tests.py
+python3 independent_check.py RESULTS.json
+```
+
+Expected: `records_checked=24`, `archived_baselines_checked=24`. The diagnostic is exploratory: its written protocol was corrected after production results. For fresh enumeration follow that README; `run_test.py` without `--output` prints JSON without changing the saved results.
+
+**Source audit:** [package README](experiments/chatillon-source-glyph-audit-20261011/README.md). From the repository root:
+
+```sh
+python3 verification/experiments/chatillon-source-glyph-audit-20261011/verify_audit.py
+```
+
+The package records Python 3.13.9 and optional Pillow 11.3.0. Default verification checks metadata integrity without loading pixels. The named pair remains unresolved, 3/4 controls passed, and historical-ID binding is conditional. Pixel reproduction requires the exact withheld capture; a fresh Gallica screenshot is a different input.
+
+PR4–6 were confirmed merged on 11 October 2026. Integration makes the packages available here; it does not validate their historical claims.
+
 ## What passing does not establish
 
 The successful local repeat example does not validate a global repeat operator. Complete-passage fits fail or depend on exposed text and grouping assumptions. No complete plaintext or unique full key is available.
