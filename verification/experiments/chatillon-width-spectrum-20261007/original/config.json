@@ -1,0 +1,4063 @@
+{
+  "active_mapping": {
+    "N2": "r",
+    "S_c_open": "e",
+    "S_h": "u",
+    "S_leaf": "e",
+    "S_pi": "n",
+    "S_rho": "o",
+    "S_x": "c",
+    "S_y_plain": "s",
+    "S_z_sweep": "d"
+  },
+  "targets": [
+    "v139R_C01_012",
+    "v139R_C02_018"
+  ],
+  "n2_shape": "N2",
+  "scenarios": [
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "reference": "soubzsaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandzfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008",
+          "shape": "U_93y_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "reference": "soubzsaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandzfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_a",
+          "shape": "SOURCE_NEW_NUMERAL_93",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_b",
+          "shape": "SOURCE_NEW_HOOK_MASKED",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "reference": "soubzsaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandzfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_a",
+          "shape": "SOURCE_NEW_NUMERAL_9",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_b",
+          "shape": "SOURCE_NEW_NUMERAL_3",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_c",
+          "shape": "SOURCE_NEW_HOOK_MASKED",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "reference": "soussaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandzfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008",
+          "shape": "U_93y_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "reference": "soussaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandzfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_a",
+          "shape": "SOURCE_NEW_NUMERAL_93",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_b",
+          "shape": "SOURCE_NEW_HOOK_MASKED",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "reference": "soussaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandzfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_a",
+          "shape": "SOURCE_NEW_NUMERAL_9",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_b",
+          "shape": "SOURCE_NEW_NUMERAL_3",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_c",
+          "shape": "SOURCE_NEW_HOOK_MASKED",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "reference": "soubzsaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandsfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008",
+          "shape": "U_93y_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "reference": "soubzsaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandsfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_a",
+          "shape": "SOURCE_NEW_NUMERAL_93",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_b",
+          "shape": "SOURCE_NEW_HOOK_MASKED",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "reference": "soubzsaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandsfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_a",
+          "shape": "SOURCE_NEW_NUMERAL_9",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_b",
+          "shape": "SOURCE_NEW_NUMERAL_3",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_c",
+          "shape": "SOURCE_NEW_HOOK_MASKED",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "reference": "soussaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandsfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008",
+          "shape": "U_93y_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "reference": "soussaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandsfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_a",
+          "shape": "SOURCE_NEW_NUMERAL_93",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_b",
+          "shape": "SOURCE_NEW_HOOK_MASKED",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "reference": "soussaconduittedeuxarmeesdhumeurdifferenteetdansunpaysquinauoitpasaccoustumedauoirdesygrandsfardeauxsurlesbras",
+      "tokens": [
+        {
+          "id": "v139R_C01_012",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_013",
+          "shape": "S_long_s_curve",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_014",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_015",
+          "shape": "S_y_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_016",
+          "shape": "N21",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_017",
+          "shape": "S_crossed_q_or_4_shape",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_018",
+          "shape": "S_x",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_019",
+          "shape": "S_rho",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_020",
+          "shape": "S_pi",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_021",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_022",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C01_023",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_001",
+          "shape": "S_double_arch",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_002",
+          "shape": "S_delta_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": true
+        },
+        {
+          "id": "v139R_C02_003",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_004",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_005",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_006",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_007",
+          "shape": "S_loop_A",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_a",
+          "shape": "SOURCE_NEW_NUMERAL_9",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_b",
+          "shape": "SOURCE_NEW_NUMERAL_3",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_008_c",
+          "shape": "SOURCE_NEW_HOOK_MASKED",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_009",
+          "shape": "S_z_sweep",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_010",
+          "shape": "S_HP_connected",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_011",
+          "shape": "S_h",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_012",
+          "shape": "S_lambda_angled",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_013",
+          "shape": "S_c_open",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_014",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_015",
+          "shape": "N2",
+          "widths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_016",
+          "shape": "S_a_plain",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_017",
+          "shape": "S_slash_loop",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_018",
+          "shape": "S_y_cross",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_019",
+          "shape": "S_epsilon_stacked",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_020",
+          "shape": "U_curve_cross_cluster",
+          "widths": [
+            1,
+            2
+          ],
+          "mapping_masked": false
+        },
+        {
+          "id": "v139R_C02_021",
+          "shape": "S_leaf",
+          "widths": [
+            1
+          ],
+          "mapping_masked": false
+        }
+      ]
+    }
+  ],
+  "expected_ablation_table_sha256": "4329763aee0a2bd1c8847a1377eef58961ced480a99dbda9996e62a79a85b9f0",
+  "expected_forcing_subsets": 240,
+  "expected_condition_count": 6144,
+  "expected_width_results": [
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "width": 1,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "width": 8,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "width": 1,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "width": 8,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "width": 1,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "width": 8,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "width": 1,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "width": 8,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "width": 1,
+      "count": 2,
+      "projections": [
+        {
+          "s": 2
+        },
+        {
+          "f": 2
+        },
+        {
+          "d": 1,
+          "r": 1
+        }
+      ],
+      "end_positions": {
+        "39": 2
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "width": 8,
+      "count": 11,
+      "projections": [
+        {
+          "s": 11
+        },
+        {
+          "e": 4,
+          "f": 3,
+          "n": 2,
+          "r": 2
+        },
+        {
+          "d": 1,
+          "dif": 1,
+          "diff": 2,
+          "diffe": 1,
+          "r": 1,
+          "rd": 1,
+          "rdif": 1,
+          "rdiff": 2,
+          "rdiffe": 1
+        }
+      ],
+      "end_positions": {
+        "39": 3,
+        "42": 4,
+        "43": 4
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "width": 1,
+      "count": 8,
+      "projections": [
+        {
+          "s": 8
+        },
+        {
+          "f": 8
+        },
+        {
+          "d": 4,
+          "r": 4
+        }
+      ],
+      "end_positions": {
+        "39": 8
+      }
+    },
+    {
+      "reference_id": "source_reader_provisional_grandz_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "width": 8,
+      "count": 44,
+      "projections": [
+        {
+          "s": 44
+        },
+        {
+          "e": 16,
+          "f": 12,
+          "n": 8,
+          "r": 8
+        },
+        {
+          "d": 4,
+          "dif": 4,
+          "diff": 8,
+          "diffe": 4,
+          "r": 4,
+          "rd": 4,
+          "rdif": 4,
+          "rdiff": 8,
+          "rdiffe": 4
+        }
+      ],
+      "end_positions": {
+        "39": 12,
+        "42": 16,
+        "43": 16
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "width": 1,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "old_uncertain_cluster",
+      "width": 8,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "width": 1,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_93_plus_hook",
+      "width": 8,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "width": 1,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_literal",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "width": 8,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "width": 1,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "old_uncertain_cluster",
+      "width": 8,
+      "count": 0,
+      "projections": [
+        {},
+        {},
+        {}
+      ],
+      "end_positions": {}
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "width": 1,
+      "count": 2,
+      "projections": [
+        {
+          "s": 2
+        },
+        {
+          "f": 2
+        },
+        {
+          "d": 1,
+          "r": 1
+        }
+      ],
+      "end_positions": {
+        "39": 2
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_93_plus_hook",
+      "width": 8,
+      "count": 11,
+      "projections": [
+        {
+          "s": 11
+        },
+        {
+          "e": 4,
+          "f": 3,
+          "n": 2,
+          "r": 2
+        },
+        {
+          "d": 1,
+          "dif": 1,
+          "diff": 2,
+          "diffe": 1,
+          "r": 1,
+          "rd": 1,
+          "rdif": 1,
+          "rdiff": 2,
+          "rdiffe": 1
+        }
+      ],
+      "end_positions": {
+        "39": 3,
+        "42": 4,
+        "43": 4
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "width": 1,
+      "count": 8,
+      "projections": [
+        {
+          "s": 8
+        },
+        {
+          "f": 8
+        },
+        {
+          "d": 4,
+          "r": 4
+        }
+      ],
+      "end_positions": {
+        "39": 8
+      }
+    },
+    {
+      "reference_id": "source_reader_grands_sensitivity_single_word_sous",
+      "grouping_id": "conditional_9_plus_3_plus_hook",
+      "width": 8,
+      "count": 44,
+      "projections": [
+        {
+          "s": 44
+        },
+        {
+          "e": 16,
+          "f": 12,
+          "n": 8,
+          "r": 8
+        },
+        {
+          "d": 4,
+          "dif": 4,
+          "diff": 8,
+          "diffe": 4,
+          "r": 4,
+          "rd": 4,
+          "rdif": 4,
+          "rdiff": 8,
+          "rdiffe": 4
+        }
+      ],
+      "end_positions": {
+        "39": 12,
+        "42": 16,
+        "43": 16
+      }
+    }
+  ],
+  "source_protocol_sha256": "e10aa5af5d6ed63c1b4d154e57c23308ce17f4ed954805a1ef4dde00dae9dc2c",
+  "exposure": "All reference wording and previous mappings were already exposed. Unknown occurrences are independent alignment slots, not a complete constant key. Reference spellings are declared analytical alternatives of a 1635 manuscript."
+}

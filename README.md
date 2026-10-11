@@ -32,6 +32,18 @@ python3 verification/check_all.py
 
 A successful run means the published files and declared calculation reproduce. It does not establish that every source sign or historical interpretation is correct.
 
+### Saved exact-width diagnostic from 7 October 2026
+
+The [width-spectrum package](verification/experiments/chatillon-width-spectrum-20261007/README.txt) preserves seven unchanged historical files, all 384 saved scenario/width/control records, provenance, a derived summary and checksums. This is the saved 7 October exposed-input sensitivity diagnostic; adding it does not report a new experiment or a decipherment.
+
+To check its bytes and saved-record consistency without rerunning either historical experiment program, use Python 3.8 or later from the repository root:
+
+```sh
+python3 verification/experiments/chatillon-width-spectrum-20261007/verify_saved_artifacts.py
+```
+
+This separate read-only check does not regenerate alignment paths. Every saved strict full-reference count is zero because the input can consume at most 50, 57 or 65 characters, while the references contain 110 or 111. That zero is guaranteed by input length and cannot independently refute the historical text. Integrity and arithmetic consistency do not establish a decipherment; the package README and provenance retain the remaining limitations.
+
 ## New conditional check: 11 October 2026
 
 The [slash-loop consistency diagnostic](verification/experiments/chatillon-slash-loop-consistency-20261011/README.md) binds two occurrences already labelled `S_slash_loop` to the same output, retaining the published references and other constraints. In the surviving prefix alignments, both emit `i`, N2 emits `r`, and the open/closed crossed targets emit `s`/`f`. This tests the coherence of recorded assumptions; it does not establish a historical key or solve the letter.

@@ -1,0 +1,58 @@
+PROVENANCE AND SCOPE
+
+Historical experiment date: 2026-10-07, as stated in the saved protocol.
+Package preparation and read-only validation date: 2026-10-11 UTC.
+
+PINNED INPUT
+Repository: Cipher-Atelier/chatillon-to-servien-cipher-letter-1635
+Commit: 5440c0a2f845a7cb92181ea99d640dc09e508274
+Path: verification/experiments/chatillon-1635/config.json
+SHA-256: b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872
+Git blob: 5e35662d7940248cf1bda52a4032652c5a52ae50
+Source:
+https://github.com/Cipher-Atelier/chatillon-to-servien-cipher-letter-1635/blob/5440c0a2f845a7cb92181ea99d640dc09e508274/verification/experiments/chatillon-1635/config.json
+
+The pinned public config.json was retrieved read-only during package
+preparation and is byte-identical to the preserved 86,144-byte input.
+The experiment scripts, October 7 protocol, results, historical README, and
+historical manifest were taken from the saved experiment record. The pinned
+commit identifies the input provenance; it is not asserted to contain those
+later experiment files or to be the current repository tip.
+
+PRESERVATION AND VERIFICATION
+All seven original files are preserved without editing. Six have entries in
+the original SHA256SUMS.json; all six match. That manifest's own SHA-256 is:
+e8eb75ce618ece23bf02a5754cd990c831dd27fa102562b24fc89a964963c599
+
+The new verifier reads files only. It checks the package checksums, the six
+historical digest entries, the seven-file allowlist, Python syntax, all 384
+unique expected scenario/width/control combinations, nonnegative integer
+counts, histogram totals, endpoint bounds, full-endpoint arithmetic, exact
+N2 substring lengths, and the derived saved-result summary. It also computes
+static maximum token-span bounds. It never imports or executes either
+historical experiment program, enumerates candidate alignments, or writes
+RESULTS.json. Arithmetic consistency is not independent regeneration of the
+cipher experiment. Checksums establish byte integrity, not authorship or an
+independent timestamp proving that the protocol preceded execution.
+
+HISTORICAL LANGUAGE REQUIRING CONTEXT
+The preserved protocol calls this a "new" test, meaning new on October 7.
+The preserved README's statement that the second program "compares every
+result" is broader than its actual assertions: independent_check.py compares
+path counts and closed/N2 histograms, but not endpoint histograms or strict
+full-reference counts. The current static verifier checks the latter fields'
+internal arithmetic without claiming to regenerate the alignment model.
+config.json contains expectations for an earlier, different width/ablation
+study; those inherited expectation fields are not the October 7 384-record
+exact-width output. Use original/RESULTS.json for this experiment.
+
+PACKAGE BOUNDARY
+Included: the seven named historical text/code/JSON files, this provenance,
+a concise wrapper README, a derived saved-result summary, a read-only
+verification utility, and package checksums. No manuscript scans, rendered
+pages, DOCX files, previous ZIPs, unrelated June data, or source-locator
+supplements are included. No private correspondence, assistant notes,
+credentials, access tokens, or account information are included. Content
+screening found no such material in the allowlisted sources; it is not a
+formal security certification. Public source attribution is retained; this
+package adds no new license grant and makes no manuscript-image rights claim.

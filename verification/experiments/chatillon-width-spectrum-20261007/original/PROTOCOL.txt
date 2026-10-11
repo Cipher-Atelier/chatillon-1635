@@ -1,0 +1,7 @@
+Frozen 2026-10-07 before execution of the new width-spectrum test.
+Question: with the eight inherited non-N2 mappings retained, at which exact N2 output lengths 1..8 do the closed-sign alternatives first appear? Previous public test only compared maximum widths 1 and 8.
+Input: config.json from Cipher-Atelier/chatillon-to-servien-cipher-letter-1635 commit 5440c0a2f845a7cb92181ea99d640dc09e508274; SHA-256 b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872 (canonical source file).
+Run each exact width in all 12 declared scenarios, preserve exposed spellings and all original token widths. Unknown occurrences remain independent, as in original model. Compute both prefix-end acceptance and strict full-reference endpoint acceptance. No wording repair, null insertion or key changes.
+Negative controls: rotate reference one character, reverse reference, and exchange retained mappings c_open=e and h=u, using original reference. Controls diagnose dependence on anchors, not statistical significance.
+Output per scenario: path count, closed target projection, N2 substrings, final endpoint range. Independent DFS enumeration will cross-check position-DAG results.
+This is a new exposed-input sensitivity diagnostic. It is NOT a new plaintext witness, blind trial, primary key recovery, or decipherment. Stop after this exact finite family; do not widen for fluent output.
