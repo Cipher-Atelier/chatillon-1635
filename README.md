@@ -32,6 +32,12 @@ python3 verification/check_all.py
 
 A successful run means the published files and declared calculation reproduce. It does not establish that every source sign or historical interpretation is correct.
 
+## New conditional check: 11 October 2026
+
+The [slash-loop consistency diagnostic](verification/experiments/chatillon-slash-loop-consistency-20261011/README.md) binds two occurrences already labelled `S_slash_loop` to the same output, retaining the published references and other constraints. In the surviving prefix alignments, both emit `i`, N2 emits `r`, and the open/closed crossed targets emit `s`/`f`. This tests the coherence of recorded assumptions; it does not establish a historical key or solve the letter.
+
+The package includes saved joint-output counts, two implementations, synthetic controls, and a preserved initial-run audit. One synthetic-control expected count was corrected after results were seen; the report discloses this amendment and treats the result as exploratory. Full-reference zero counts remain guaranteed by input length and provide no independent evidence against the historical text.
+
 ## Precise research scope
 
 Local conditional repeat and N2-width dependency hypothesis. Replay covers 6,144 dependent alignment conditions and 24 width conditions, not a recovered full key or independent confirmations.

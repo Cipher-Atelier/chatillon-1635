@@ -1,0 +1,74 @@
+{
+  "date_utc": "2026-10-11",
+  "status": "post-result correction of one synthetic-control expected count; exploratory diagnostic, not strict preregistration",
+  "input": {
+    "path": "../chatillon-1635/config.json",
+    "sha256": "b130ebb024676a41749532a473e5918078f64f572be83ed20f76a56f2b48b872",
+    "base_commit": "5440c0a2f845a7cb92181ea99d640dc09e508274"
+  },
+  "question": "Can either inherited N2 maximum-width model align the recorded prefix while v139R_C01_023 and v139R_C02_017 (both labelled S_slash_loop) emit the same string?",
+  "hypothesis": "One deterministic positive-length substitution for the two recorded S_slash_loop occurrences, with all other declared assumptions retained.",
+  "binding_pair": [
+    "v139R_C01_023",
+    "v139R_C02_017"
+  ],
+  "required_pair_shape": "S_slash_loop",
+  "n2_max_widths": [
+    1,
+    8
+  ],
+  "reference_and_grouping_policy": "Use all 12 scenarios verbatim. Count prefix endpoints, not full-reference fits. Four references x three groupings share six effective prefix cases; never claim independent trials.",
+  "mapping_policy": "Retain all eight non-N2 active mappings verbatim; N2 is an unknown positive-length slot bounded by 1 or 8. Keep mapping_masked and other width constraints unchanged.",
+  "other_unknowns": "All other unresolved slots remain independent. Visually distinguished crossed forms are not merged; uncertain U_ clusters and possible repeat-operator slots receive no new equality assignment.",
+  "controls": [
+    {
+      "type": "archived_baseline",
+      "criterion": "Without the pair equality, counts, target projections, N2 projections and endpoint histograms must exactly match all 24 expected_width_results in the pinned config."
+    },
+    {
+      "type": "synthetic_positive",
+      "criterion": "A,B,A with one-letter slots against aba: one path with equal A; multicharacter X,q,X against abqab with widths1..2: one equal-X path."
+    },
+    {
+      "type": "synthetic_negative",
+      "criterion": "A,B,A against abc: one independent path, zero equal-A paths. X,q,X against abqac: two independent prefix paths (endpoints 4 and 5), zero equal-X paths."
+    },
+    {
+      "type": "masked_fixed_mapping",
+      "criterion": "Mapping-masked tokens must not inherit a fixed key value."
+    },
+    {
+      "type": "zero_path",
+      "criterion": "A mismatched retained literal has no path with or without equality; empty histograms must be handled explicitly."
+    }
+  ],
+  "success_criterion": "At least one equality-compatible path in a baseline-nonempty scenario. Record surviving paired values and crossed-sign outputs, but do not accept any new historical key value.",
+  "rejection_criterion": "Zero equality-compatible paths in every baseline-nonempty scenario rejects only the conjunction of recorded sign-class identity, deterministic substitution, inherited anchors, exposed reference prefix and grouping/width assumptions. It does not reject historical plaintext alone.",
+  "inconclusive_criterion": "A failed input hash, baseline comparison or synthetic control invalidates the new calculation; do not publish a research conclusion from it.",
+  "required_outputs": [
+    "All 24 scenario/N2-bound records with baseline count, equality count and complete joint histogram of the two slash-loop outputs, endpoint counts and crossed-target outputs on surviving paths.",
+    "Compact summary over 12 named and six effective cases; distinguish duplicates.",
+    "Input/protocol/code hashes, commands and software version; preserve original bytes."
+  ],
+  "independent_check": "A separately written augmented-state dynamic program must reproduce the enumeration-derived baseline/equality counts and joint slash-output histograms for all 24 records.",
+  "bounds": "No plaintext repair, key repair, nulls, broader width family, language-model optimization or search for fluent text. Do not run either October7 experiment script or the 6144-ablation replay.",
+  "limitations": [
+    "All reference wording, key assumptions and older diagnostic results were already exposed. This is a conditional model-consistency diagnostic, not blind validation.",
+    "Source glyph identity is a recorded annotation and has not been independently certified from pixels here.",
+    "No full-key or full-letter solution is inferred; successful remaining unknown slots need not be globally coherent.",
+    "Zero full-reference counts are structurally guaranteed by input length and are not an outcome or success criterion of this test.",
+    "History check covers published config/code/report and October7 wrapper. Personal-context retrieval and earlier ZIP bytes were unavailable; no claim of exhaustive novelty across private prior work."
+  ],
+  "ai_assistance": "Codex selected the hypothesis, specified the protocol and checks; code and read-only review are AI-assisted, not human expert validation.",
+  "version": 2,
+  "amendment": {
+    "initial_protocol_sha256": "9f0c55212ada57055295dec79406f3476899191298fd5f29bf93d15d373fb6d1",
+    "initial_results_sha256": "72645745cdb67e982511010d2b778d8d801f07fb9e1c30abe1d30638261b32fe",
+    "production_results_seen_before_amendment": true,
+    "change": "Correct X,q,X against abqac from one to two independent prefix paths (endpoints 4 and 5); zero equal-X paths unchanged.",
+    "reason": "The original wording counted only the full endpoint, whereas the declared production and synthetic model admits prefix endpoints.",
+    "unchanged": "No change to input bytes, binding pair, references, mappings, widths, production success/rejection criteria, solver algorithm or observed production counts.",
+    "initial_run_status": "The calculation is retained verbatim for audit; the original synthetic-control wording was not satisfied, so it is not a valid conclusion under protocol v1.",
+    "snapshot": "initial-run/ contains original protocol, results and three code files. These are audit bytes; current files provide the corrected reproducible workflow."
+  }
+}
